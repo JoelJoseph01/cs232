@@ -1,0 +1,240 @@
+Script started on Monday 11 February 2019 09:40:36 AM IST
+\]0;s4d1@cec-H110M: ~/Desktop[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop[00m$ \[Kcd[K[Kls
+ceccs17d29.11.02.19.txt  foss.txt  h.txt
+]0;s4d1@cec-H110M: ~/Desktop[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop[00m$ rm foss.txt
+]0;s4d1@cec-H110M: ~/Desktop[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop[00m$ rm h.txt
+]0;s4d1@cec-H110M: ~/Desktop[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop[00m$ mkdir s4d1
+]0;s4d1@cec-H110M: ~/Desktop[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop[00m$ ls
+ceccs17d29.11.02.19.txt  [0m[01;34ms4d1[0m
+]0;s4d1@cec-H110M: ~/Desktop[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop[00m$ cd s4d1
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cat [K>foss.txt
+This is Ubn ut nu ty u lan b
+We use ubunty h               ^Z
+[1]+  Stopped                 cat > foss.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ rm foss.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cat>h.txt
+1   2 3 4 5
+q   a b c d e
+@ $ % & *
+^Z
+[2]+  Stopped                 cat > h.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cat h.txt
+1 2 3 4 5
+a b c d e
+@ $ % & *
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cat -n h.txt
+     1	1 2 3 4 5
+     2	a b c d e
+     3	@ $ % & *
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cat [K>f.[K[Ka.txt
+He;;  llo World
+Foss Lab
+Ubunty\  u
+S4e d2 1
+^Z
+[3]+  Stopped                 cat > a.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cat h.txt>>a.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cat a.txt
+Hello World
+Foss Lab
+Ubuntu
+S4d1
+1 2 3 4 5
+a b c d e
+@ $ % & *
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cat -n a.txt
+     1	Hello World
+     2	Foss Lab
+     3	Ubuntu
+     4	S4d1
+     5	1 2 3 4 5
+     6	a b c d e
+     7	@ $ % & *
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ ls -l
+total 8
+-rw-rw-r-- 1 s4d1 s4d1 63 Feb 11 09:43 a.txt
+-rw-rw-r-- 1 s4d1 s4d1 30 Feb 11 09:42 h.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cd
+]0;s4d1@cec-H110M: ~[01;32ms4d1@cec-H110M[00m:[01;34m~[00m$ cd Desktop
+]0;s4d1@cec-H110M: ~/Desktop[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop[00m$ ls -l
+total 4
+-rw-rw-r-- 1 s4d1 s4d1    0 Feb 11 09:40 ceccs17d29.11.02.19.txt
+drwxrwxr-x 2 s4d1 s4d1 4096 Feb 11 09:42 [0m[01;34ms4d1[0m
+]0;s4d1@cec-H110M: ~/Desktop[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop[00m$ cd s4e[Kd1
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ gre[p [K[K[Kp a a.tt[Kxt
+Foss L[01;31m[Ka[m[Kb
+[01;31m[Ka[m[K b c d e
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ time
+
+real	0m0.000s
+user	0m0.000s
+sys	0m0.000s
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ date
+Mon Feb 11 09:45:38 IST 2019
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ cal
+   February 2019      
+Su Mo Tu We Th Fr Sa  
+                1  2  
+ 3  4  5  6  7  8  9  
+10 [7m11[27m 12 13 14 15 16  
+17 18 19 20 21 22 23  
+24 25 26 27 28        
+                      
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        1.0G        1.2G        176M        1.5G        2.3G
+Swap:          7.4G          0B        7.4G
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ man free -h
+[?1049h[?1h=FREE(1)                          User Commands                         FREE(1)[m
+[m
+[1mNAME[0m[m
+       free - Display amount of free and used memory in the system[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mfree[0m [[4moptions[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mfree[0m  displays the total amount of free and used physical and swap mem‐[m
+       ory in the system, as well as the buffers and caches used by  the  ker‐[m
+       nel.  The  information  is  gathered by parsing /proc/meminfo. The dis‐[m
+       played columns are:[m
+[m
+       [1mtotal[0m  Total installed memory (MemTotal and SwapTotal in /proc/meminfo)[m
+[m
+       [1mused[0m   Used memory (calculated as [1mtotal[0m - [1mfree[0m - [1mbuffers[0m - [1mcache[0m)[m
+[m
+       [1mfree[0m   Unused memory (MemFree and SwapFree in /proc/meminfo)[m
+[m
+       [1mshared[0m Memory used (mostly) by tmpfs (Shmem in /proc/meminfo, available[m
+              on kernels 2.6.32, displayed as zero if not available)[m
+[m
+[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049lNo manual entry for -h
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ ls -of
+h.txt  ..  .  a.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ u name[K[K[K[K[Kname -a
+\Linux cec-H110M 4.15.0-45-generic #48~16.04.1-Ubuntu SMP Tue Jan 29 18:03:48 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ \[Kfind -empty
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ find ~ -empty
+/home/s4d1/Templates
+/home/s4d1/.cache/motd.legal-displayed
+/home/s4d1/.cache/unity-control-center/WebKitCache/Version 12/Blobs
+/home/s4d1/.cache/gnome-software/3.20/firmware
+/home/s4d1/.cache/evolution/tasks/trash
+/home/s4d1/.cache/evolution/memos/trash
+/home/s4d1/.cache/evolution/calendar/trash
+/home/s4d1/.cache/evolution/mail/trash
+/home/s4d1/.cache/evolution/sources/trash
+/home/s4d1/.cache/evolution/addressbook/trash
+/home/s4d1/Public
+/home/s4d1/.gnupg/private-keys-v1.d
+/home/s4d1/Videos
+/home/s4d1/.mozilla/extensions
+/home/s4d1/.mozilla/firefox/Pending Pings
+/home/s4d1/.mozilla/firefox/Crash Reports/events
+/home/s4d1/.mozilla/firefox/fojceoqz.default/crashes/events
+/home/s4d1/.mozilla/firefox/fojceoqz.default/extensions
+/home/s4d1/.mozilla/firefox/fojceoqz.default/gmp/Linux_x86_64-gcc3
+/home/s4d1/.mozilla/firefox/fojceoqz.default/.parentlock
+/home/s4d1/.mozilla/firefox/fojceoqz.default/bookmarkbackups
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++maker.pro/cache/morgue
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++fossbytes.com/idb/993782502OBNDE__KSDISG_NLA.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/idb/135281680jsoteclasthnaojciejno.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/idb/3465955605jaotealds_hdaejdidjeo.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/idb/3259556427jsoleilastheadjeigjao.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/idb/2969534247jhocerlasehsa_jeinjio.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/idb/953658429glmaaviyle-ks-w.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/idb/501002930jdoaeollsphuatjniejmo.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/idb/1776911639jbodeflls_hmaojci.jlo.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/idb/1593787212uysretrs_irge.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/cache/morgue/14
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/cache/morgue/236
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/cache/morgue/23
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/https+++mail.google.com/cache/morgue/79
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/default/moz-safe-about+srcdoc/cache/morgue
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/temporary
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/permanent/indexeddb+++fx-devtools/idb/478967115deegvatroootlss--cans.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files/journals
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/permanent/chrome/idb/3561288849sdhlie.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/storage/permanent/chrome/idb/2918063365piupsah.files
+/home/s4d1/.mozilla/firefox/fojceoqz.default/saved-telemetry-pings
+/home/s4d1/.mozilla/firefox/fojceoqz.default/AlternateServices.txt
+/home/s4d1/.mozilla/firefox/fojceoqz.default/minidumps
+/home/s4d1/.mozilla/firefox/fojceoqz.default/SecurityPreloadState.txt
+/home/s4d1/.mozilla/firefox/fojceoqz.default/TRRBlacklist.txt
+/home/s4d1/.mozilla/systemextensionsdev
+/home/s4d1/Pictures
+/home/s4d1/.config/gnome-session/saved-session
+/home/s4d1/.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/tmp/extensions
+/home/s4d1/.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/menubar
+/home/s4d1/.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/popupmenu
+/home/s4d1/.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/statusbar
+/home/s4d1/.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/images/Bitmaps
+/home/s4d1/.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/toolbar
+/home/s4d1/.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+/home/s4d1/.config/libreoffice/4/user/uno_packages/cache/uno_packages
+/home/s4d1/.config/libreoffice/4/user/autocorr
+/home/s4d1/.config/unity/first_run.stamp
+/home/s4d1/.config/upstart
+/home/s4d1/.config/update-notifier
+/home/s4d1/Music
+/home/s4d1/.local/share/applications
+/home/s4d1/.local/share/Trash/files/ceccs17d29.04.02.19
+/home/s4d1/.local/share/unity-settings-daemon/input-sources-converted
+/home/s4d1/.local/share/zeitgeist/fts.index/flintlock
+/home/s4d1/.local/share/sounds
+/home/s4d1/.local/share/nautilus/scripts
+/home/s4d1/.local/share/.converted-launchers
+/home/s4d1/.local/share/evolution/tasks/trash
+/home/s4d1/.local/share/evolution/memos/trash
+/home/s4d1/.local/share/evolution/calendar/trash
+/home/s4d1/.local/share/evolution/mail/trash
+/home/s4d1/.local/share/evolution/addressbook/system/photos
+/home/s4d1/.local/share/evolution/addressbook/trash
+/home/s4d1/.local/share/webkitgtk/localstorage
+/home/s4d1/.gconf
+/home/s4d1/Documents
+/home/s4d1/Downloads
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ [K]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ sort a.txt
+@ $ % & *
+1 2 3 4 5
+a b c d e
+Foss Lab
+Hello World
+S4d1
+Ubuntu
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ sort h.txt
+@ $ % & *
+1 2 3 4 5
+a b c d e
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ ls -l
+total 8
+-rw-rw-r-- 1 s4d1 s4d1 63 Feb 11 09:43 a.txt
+-rw-rw-r-- 1 s4d1 s4d1 30 Feb 11 09:42 h.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ exit
+exit
+There are stopped jobs.
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ exit
+exit
+
+Script done on Monday 11 February 2019 10:20:43 AM IST
