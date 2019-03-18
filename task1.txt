@@ -85,7 +85,8 @@ Su Mo Tu We Th Fr Sa
 Mem:           3.7G        1.0G        1.2G        176M        1.5G        2.3G
 Swap:          7.4G          0B        7.4G
 ]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ man free -h
-[?1049h[?1h=FREE(1)                          User Commands                         FREE(1)[m
+[?1049h[?1h=
+FREE(1)                          User Commands                         FREE(1)[m
 [m
 [1mNAME[0m[m
        free - Display amount of free and used memory in the system[m
@@ -108,7 +109,26 @@ Swap:          7.4G          0B        7.4G
        [1mshared[0m Memory used (mostly) by tmpfs (Shmem in /proc/meminfo, available[m
               on kernels 2.6.32, displayed as zero if not available)[m
 [m
-[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049lNo manual entry for -h
+[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K
+[K [KESCESC[KOO[KAA
+[K
+[K[7m Manual page free(1) line 1 (press h for help or q to quit)[27m[K
+[K[?1l>[?1049lNo manual entry for -h
 ]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ ls -of
 h.txt  ..  .  a.txt
 ]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ u name[K[K[K[K[Kname -a
@@ -215,7 +235,8 @@ h.txt  ..  .  a.txt
 /home/s4d1/.gconf
 /home/s4d1/Documents
 /home/s4d1/Downloads
-]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ [K]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ sort a.txt
+]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ 
+[K]0;s4d1@cec-H110M: ~/Desktop/s4d1[01;32ms4d1@cec-H110M[00m:[01;34m~/Desktop/s4d1[00m$ sort a.txt
 @ $ % & *
 1 2 3 4 5
 a b c d e
