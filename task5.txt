@@ -1,0 +1,23 @@
+Script started on Monday 18 March 2019 10:45:06 PM IST
+]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ sftpifconfig./task.shchmod u+x task.sh[10Pd taskls[Kcd Desktopls[Ksftp cs17d29@10.0.2.15[14Pifconfigsftp cs17d29@192.168.0.30ifconfig[Ksftp cs17d29@192.168.0.30cd[Klear./task.sh[4Pcleard[Ksftp cs17d29@192.168.0.30ifconfig[Ksftp cs17d29@10.0.2.15[14Pifconfigsftp cs17d29@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> ls
+examples.desktop    
+sftp> put re[K[K[K[K[Kput result [K[K[K .txt
+Uploading res.txt to /home/cs17d29/res.txt
+res.txt                                       100%    0     0.0KB/s   00:00    
+sftp> ls
+examples.desktop    res.txt             
+sftp> get res.txt
+Fetching /home/cs17d29/res.txt to res.txt
+sftp> eix[K[Kxit
+]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ exit
+exit
+
+Script done on Monday 18 March 2019 10:48:36 PM IST
