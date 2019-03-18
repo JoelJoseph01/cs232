@@ -11,7 +11,8 @@ sftp> ls
 examples.desktop    
 sftp> put re[K[K[K[K[Kput result [K[K[K .txt
 Uploading res.txt to /home/cs17d29/res.txt
-res.txt                                       100%    0     0.0KB/s   00:00    
+
+res.txt                                       100%    0     0.0KB/s   00:00    
 sftp> ls
 examples.desktop    res.txt             
 sftp> get res.txt
