@@ -1,0 +1,299 @@
+Script started on Monday 25 March 2019 10:34:07 AM IST
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh cs17d29@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 10:10:53 2019 from 192.168.0.189
+$ sc  ls
+examples.desktop  final.txt  res.txt  s4d.txt
+$ cat s final.txt
+CHN17CS004 ABIN 8.6875 7.58696 8.13723
+CHN17CS006 ADERSH 9.16667 8.65217 8.90942
+CHN17CS013 ALEN 8.54167 6.5 7.52083
+CHN17CS017 AMAL 8.66667 8.52174 8.5942
+CHN17CS018 AMRITA 3.64583 3.58696 3.61639
+CHN17CS019 ANAKHA 9 8.71739 8.8587
+CHN17CS021 ANIJA 7.72917 7.26087 7.49502
+CHN17CS022 ANJALI 3.66667 3.1087 3.38768
+CHN17CS023 ANUJA 2.89583 4.73913 3.81748
+CHN17CS024 ANUROSE 8.75 8.69565 8.72283
+CHN17CS027 ARCHANA 7.95833 7.97826 7.96829
+CHN17CS029 ARUN 3.625 4 3.8125
+CHN17CS030 ASHISH 9.27083 8.8913 9.08106
+CHN17CS032 ASWIN 6.75 5.84783 6.29892
+CHN17CS034 ATHIRA 7.70833 7.15217 7.43025
+CHN17CS037 AZHAR 3.91667 5.17391 4.54529
+CHN17CS038 BAMISHA 3.79167 3.86957 3.83062
+CHN17CS041 DARSANA 8.20833 6.65217 7.43025
+CHN17CS044 DEEPAK 9.02083 8 8.51042
+CHN17CS045 DEVIKA 4.72917 3.91304 4.32111
+CHN17CS048 GEORGI 8.91667 8.32609 8.62138
+CHN17CS051 GOUTHAM 8.08333 7.63043 7.85688
+CHN17CS052 GOVIND 5.6875 4.21739 4.95244
+CHN17CS053 GRESHMA 9.16667 9.04348 9.10507
+CHN17CS054 HARIDEV 8.33333 6.56522 7.44928
+CHN17CS055 HARIKRISHNAN 7.25 5.95652 6.60326
+CHN17CS057 JATHIN 9.77083 8.34783 9.05933
+CHN17CS058 JENY 9.58333 7.71739 8.65036
+CHN17CS063 JOEL 8.64583 7.91304 8.27943
+CHN17CS064 JOHAN 8.41667 7.69565 8.05616
+CHN17CS070 LENA 8.91667 8.41304 8.66485
+CHN17CS071 LINTA 4.6875 4.13043 4.40897
+CHN17CS074 MEGHA 3.14583 2.82609 2.98596
+CHN17CS076 MOHAMED 6.70833 5.34783 6.02808
+CHN17CS077 MONIYA 9.29167 8.13043 8.71105
+CHN17CS080 NIKHIL 8.08333 8.02174 8.05253
+CHN17CS083 NIRMAL 6.35417 7.02174 6.68796
+CHN17CS085 NITHYA 8.58333 8.78261 8.68297
+CHN17CS088 N 5 4.26087 4.63044
+CHN17CS090 PRANAY 4.8125 5.04348 4.92799
+CHN17CS093 RITHU 8.54167 7.67391 8.10779
+CHN17CS094 RITTY 9.375 8.13043 8.75272
+CHN17CS095 ROSHIN 9.25 8.15217 8.70108
+CHN17CS097 SACHIN 9.125 8.69565 8.91033
+CHN17CS100 SAYOOJ 7.85417 6.36957 7.11187
+CHN17CS101 SHABEERDAS 7.625 6.13043 6.87772
+CHN17CS104 SHYLESH 7.9375 7.3913 7.6644
+CHN17CS106 SNEHA 5.89583 5.82609 5.86096
+CHN17CS109 SREELAL 0.729167 2.76087 1.74502
+CHN17CS110 STEPHEN 8.10417 7.23913 7.67165
+CHN17CS111 SURYA 9.25 6.86957 8.05978
+CHN17CS113 THWALIB 7.77083 6.04348 6.90715
+CHN17CS114 VARGHESE 8.35417 7.65217 8.00317
+CHN17CS115 VIMAL 7.4375 8.21739 7.82744
+CHN17CS116 VISAKH 8.39583 6.78261 7.58922
+CHN17CS117 VISHAK 8.91667 7.8913 8.40399
+CHN17CS118 VISHNU 9.66667 8.47826 9.07247
+CHN17CS119 VYSHAKH 6.77083 5.08696 5.9289
+LCHN17CS122 AMRUTHA   0
+LCHN17CS124 JACOB   0
+LCHN17CS121 AISWARYA   0
+LCHN17CS123 HARIKRISHNAN   0
+    0
+$ pwd
+/home/cs17d29
+$ scp cs1   cec   cs17d29@192.168.0,.  .30:/home/ta        /home/cec/Desktop/task/tt.txt /home/cs17d29
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+scp: /home/cec/Desktop/task/tt.txt: No such file or directory
+$ if
+> exit
+> ^C
+$ i w exit
+Connection to 192.168.0.30 closed.
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ if
+> ^C
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ if [Kconfig
+enp1s0    Link encap:Ethernet  HWaddr e0:d5:5e:07:61:3d  
+          inet addr:192.168.0.189  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::2b4d:9935:f69d:b0c0/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:135743 errors:0 dropped:56 overruns:0 frame:0
+          TX packets:47085 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:62623119 (62.6 MB)  TX bytes:6078349 (6.0 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:934 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:934 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:76100 (76.1 KB)  TX bytes:76100 (76.1 KB)
+
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh[K[K[Kifconfig[Kssh cs17d29@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kssh cs17d29@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 10:37:48 2019 from 192.168.0.189
+$ scp cec@192.168.189.    0.189:/home     /home/cec/Desktop/task/tt.tgxt   xt /homw/  e/cs17d29
+ssh: connect to host 192.168.0.189 port 22: Connection refused
+$ scp cec@192.168.0.189:/home/cec/ttx .txt /home/cs17d29
+ssh: connect to host 192.168.0.189 port 22: Connection refused
+$ scp cs17        scp     scp cexc  c@    cec@192.168.0 0.189 9  :/home                           ssh     exit
+Connection to 192.168.0.30 closed.
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ scp n[Kv[Kcsc[K[Ks17d29@192.168.0.30 [K: [K/home/cec/tt.txt /hpo[K[Komw[Ke/cs17d29
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+scp: /home/cec/tt.txt: No such file or directory
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh -t cs17d29@192.168.0.30 [K-joel[K[K[K[Kjay[K[Koels4d
+ssh: Could not resolve hostname 192.168.0.30-joels4d: Temporary failure in name resolution
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh -t cs17d29@192.168.0.30-joels4d[C[K[K[K[K[K[K[Khwew[K[K[Kere paa[Ksswd
+ssh: Could not resolve hostname 192.168.0.30-here: Temporary failure in name resolution
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh -t cs17d29@192.168.0.30-here passwd[C[C[C[C[C[C[C[1P passwd[1P passwd[1P passwd[1P passwd[1P passwd[C passwd[C[C[C[C[C[C[1Ppasswd[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+Changing password for cs17d29.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Connection to 192.168.0.30 closed.
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh -t cs17d29@192.168.0.30 passwd-here passwd[4Pjoels4d[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krsync [K[K[K[K[K[Ksftp cs17d29@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> p[Kpo[K[Kput [K[K[Kput tt.txt
+stat tt.txt: No such file or directory
+sftp> pwd
+Remote working directory: /home/cs17d29
+sftp> lpwd
+Local working directory: /home/cec
+sftp> ls
+examples.desktop    final.txt           res.txt             s4d.txt             
+sftp> py[K[Kget res.txt
+Fetching /home/cs17d29/res.txt to res.txt
+sftp> lls
+aa.c		  file.txt				  PVP-FOSS-LAB
+abc		  git					  qs3.c
+abin.txt	  google-chrome-stable_current_amd64.deb  qsn3.c
+add2.sh		  har.txt				  res.txt
+add.txt		  hospira_iv.jpg			  result.txt
+a.out		  index.html				  Rogin_Git
+bank.pdf	  index.html.1				  s3d21
+bank.pdf.1	  index.html.2				  s4d1
+bss1.txt	  index.html.3				  server.java
+bss.txt		  java.io.BufferedInputStream		  snap
+cec		  java.io.File				  sum1
+cechtml		  java.io.FileInputStream		  sum.asm
+child.c		  java.io.IOException			  sum.o
+client.java	  java.io.OutputStream			  task4.txt
+Client.java	  java.net.ServerSocket			  temp
+cpu.txt		  java.net.Socket			  Templates
+cqueue.c	  manu.java				  text.txt
+curl.pdf	  motivate				  tt
+Desktop		  Music					  udo --help
+Documents	  ns-allinone-2.35			  Videos
+Downloads	  ns-allinone-2.35.tar.gz		  VirtualBox VMs
+emp.c		  oddeven.sh				  www.gnu.org
+employee.txt	  Pictures
+examples.desktop  Public
+sftp> ;[Kput rtr[K[K[Ktt
+Uploading tt to /home/cs17d29/tt
+tt                                              0%    0     0.0KB/s   --:-- ETAtt                                            100%   63     0.1KB/s   00:00    
+sftp> exit
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ scp[K[K[Ksftp cs17d29@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh -t cs17d29@192.168.0.30 passwd-here passwd[4Pjoels4d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp cs17d29@192.168.0.30:/home/cec/tt.txt /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+scp: /home/cec/tt: No such file or directory
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ scp cs17d29@192.168.0.30:/home/cec/tt /home/cs17d29[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K:tcs17d29@192.168.0.30:tcs17d29@192.168.0.30:.cs17d29@192.168.0.30:tcs17d29@192.168.0.30:[1Pcs17d29@192.168.0.30:[1Pcs17d29@192.168.0.30: cs17d29@192.168.0.30:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+tt                                              0%    0     0.0KB/s   --:-- ETAtt                                            100%   63     0.1KB/s   00:00    
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ls
+aa.c              file.txt                                [0m[01;34mPVP-FOSS-LAB[0m
+[01;32mabc[0m               [01;34mgit[0m                                     qs3.c
+abin.txt          [01;31mgoogle-chrome-stable_current_amd64.deb[0m  qsn3.c
+[01;32madd2.sh[0m           har.txt                                 res.txt
+add.txt           [01;35mhospira_iv.jpg[0m                          result.txt
+[01;32ma.out[0m             index.html                              [01;34mRogin_Git[0m
+bank.pdf          index.html.1                            [01;34ms3d21[0m
+bank.pdf.1        index.html.2                            [01;34ms4d1[0m
+bss1.txt          index.html.3                            server.java
+bss.txt           java.io.BufferedInputStream             [01;34msnap[0m
+[01;34mcec[0m               java.io.File                            [01;32msum1[0m
+cechtml           java.io.FileInputStream                 sum.asm
+child.c           java.io.IOException                     sum.o
+client.java       java.io.OutputStream                    task4.txt
+Client.java       java.net.ServerSocket                   [01;34mtemp[0m
+cpu.txt           java.net.Socket                         [01;34mTemplates[0m
+cqueue.c          manu.java                               text.txt
+curl.pdf          [01;34mmotivate[0m                                tt
+[01;34mDesktop[0m           [01;34mMusic[0m                                   udo --help
+[01;34mDocuments[0m         [01;34mns-allinone-2.35[0m                        [01;34mVideos[0m
+[01;34mDownloads[0m         [01;31mns-allinone-2.35.tar.gz[0m                 [01;34mVirtualBox VMs[0m
+emp.c             [01;32moddeven.sh[0m                              [01;34mwww.gnu.org[0m
+[01;32memployee.txt[0m      [01;34mPictures[0m
+examples.desktop  [01;34mPublic[0m
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ c[Kssh cs17d29@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Mar 25 11:34:07 2019 from 192.168.0.189
+$ ls
+examples.desktop  final.txt  res.txt  s4d.txt  tt
+$ ^[[A^[[A^[[A            scp cs17d29@192.17 68, .0.30  :/home/cs17d29/tt /home/cec
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+/home/cec/tt: Permission denied
+$ ^[[A^[[A        scp cs17d29@192.168.0.30:/home. /cw e s17d29/tt /home/cec
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+/home/cec/tt: Permission denied
+$ exit
+Connection to 192.168.0.30 closed.
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ss[Kcp[K[K[Kssh cs17d29@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscp tt cs17d29@192.168.0.30:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d29@192.168.0.30:/home/cec/tt /home/cs17d29[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Ptt cs17d29@192.168.0.30:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d29@192.168.0.30:/home/cec/tt /home/cs17d29[1P[1P[1@s[1@2[1P[1@1[1@8[1@7[1P[1P[1@7[1@d[1@2[1@9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[Kec
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+tt                                              0%    0     0.0KB/s   --:-- ETAtt                                            100%   63     0.1KB/s   00:00    
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sftp [K[K[K[K[Kexit[K[K[K[Kexit
+exit
+
+Script done on Monday 25 March 2019 11:56:15 AM IST
