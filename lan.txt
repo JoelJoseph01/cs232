@@ -1,0 +1,132 @@
+Script started on Monday 18 March 2019 12:05:10 PM IST
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig
+[sudo] password for cec-lab2: 
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ab:20  
+          inet6 addr: fe80::1278:d2ff:fee0:ab20/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:9917594 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:56864 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3616478586 (3.6 GB)  TX bytes:8215044 (8.2 MB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:846 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:846 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:347393 (347.3 KB)  TX bytes:347393 (347.3 KB)
+
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig etho[K0[K)[K0
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ab:20  
+          inet6 addr: fe80::1278:d2ff:fee0:ab20/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:9917616 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:56865 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3616479994 (3.6 GB)  TX bytes:8215155 (8.2 MB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 192.168.0.90[K[K90
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 192.168.0.90 subnet[K[K[K[K[K[Ken[K[Knetmask 255.2 55.255.0
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.2555.255.0[A]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K
+eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ab:20  
+          inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::1278:d2ff:fee0:ab20/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:9917648 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:56903 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3616484496 (3.6 GB)  TX bytes:8220110 (8.2 MB)
+          Interrupt:20 Memory:fbbc0000-fbbe0000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:870 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:870 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:349505 (349.5 KB)  TX bytes:349505 (349.5 KB)
+
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ ping sudo ifconfig[8Pping 192.168.0.91
+PING 192.168.0.91 (192.168.0.91) 56(84) bytes of data.
+64 bytes from 192.168.0.91: icmp_seq=1 ttl=64 time=1.25 ms
+64 bytes from 192.168.0.91: icmp_seq=2 ttl=64 time=0.583 ms
+64 bytes from 192.168.0.91: icmp_seq=3 ttl=64 time=0.588 ms
+64 bytes from 192.168.0.91: icmp_seq=4 ttl=64 time=0.554 ms
+64 bytes from 192.168.0.91: icmp_seq=5 ttl=64 time=0.549 ms
+64 bytes from 192.168.0.91: icmp_seq=6 ttl=64 time=0.526 ms
+64 bytes from 192.168.0.91: icmp_seq=7 ttl=64 time=0.670 ms
+64 bytes from 192.168.0.91: icmp_seq=8 ttl=64 time=0.613 ms
+64 bytes from 192.168.0.91: icmp_seq=9 ttl=64 time=0.624 ms
+64 bytes from 192.168.0.91: icmp_seq=10 ttl=64 time=0.547 ms
+64 bytes from 192.168.0.91: icmp_seq=11 ttl=64 time=0.628 ms
+64 bytes from 192.168.0.91: icmp_seq=12 ttl=64 time=0.571 ms
+64 bytes from 192.168.0.91: icmp_seq=13 ttl=64 time=0.538 ms
+64 bytes from 192.168.0.91: icmp_seq=14 ttl=64 time=0.586 ms
+64 bytes from 192.168.0.91: icmp_seq=15 ttl=64 time=0.534 ms
+64 bytes from 192.168.0.91: icmp_seq=16 ttl=64 time=0.644 ms
+64 bytes from 192.168.0.91: icmp_seq=17 ttl=64 time=0.554 ms
+64 bytes from 192.168.0.91: icmp_seq=18 ttl=64 time=0.578 ms
+64 bytes from 192.168.0.91: icmp_seq=19 ttl=64 time=0.563 ms
+64 bytes from 192.168.0.91: icmp_seq=20 ttl=64 time=0.535 ms
+64 bytes from 192.168.0.91: icmp_seq=21 ttl=64 time=0.547 ms
+64 bytes from 192.168.0.91: icmp_seq=22 ttl=64 time=0.554 ms
+64 bytes from 192.168.0.91: icmp_seq=23 ttl=64 time=0.543 ms
+64 bytes from 192.168.0.91: icmp_seq=24 ttl=64 time=0.530 ms
+64 bytes from 192.168.0.91: icmp_seq=25 ttl=64 time=0.540 ms
+64 bytes from 192.168.0.91: icmp_seq=26 ttl=64 time=0.542 ms
+64 bytes from 192.168.0.91: icmp_seq=27 ttl=64 time=0.556 ms
+64 bytes from 192.168.0.91: icmp_seq=28 ttl=64 time=0.320 ms
+64 bytes from 192.168.0.91: icmp_seq=29 ttl=64 time=0.545 ms
+64 bytes from 192.168.0.91: icmp_seq=30 ttl=64 time=0.520 ms
+64 bytes from 192.168.0.91: icmp_seq=31 ttl=64 time=0.539 ms
+64 bytes from 192.168.0.91: icmp_seq=32 ttl=64 time=0.546 ms
+64 bytes from 192.168.0.91: icmp_seq=33 ttl=64 time=0.560 ms
+64 bytes from 192.168.0.91: icmp_seq=34 ttl=64 time=0.552 ms
+64 bytes from 192.168.0.91: icmp_seq=35 ttl=64 time=0.544 ms
+64 bytes from 192.168.0.91: icmp_seq=36 ttl=64 time=0.554 ms
+64 bytes from 192.168.0.91: icmp_seq=37 ttl=64 time=0.314 ms
+64 bytes from 192.168.0.91: icmp_seq=38 ttl=64 time=0.523 ms
+64 bytes from 192.168.0.91: icmp_seq=39 ttl=64 time=0.511 ms
+64 bytes from 192.168.0.91: icmp_seq=40 ttl=64 time=0.553 ms
+64 bytes from 192.168.0.91: icmp_seq=41 ttl=64 time=0.288 ms
+64 bytes from 192.168.0.91: icmp_seq=42 ttl=64 time=0.553 ms
+64 bytes from 192.168.0.91: icmp_seq=43 ttl=64 time=0.431 ms
+64 bytes from 192.168.0.91: icmp_seq=44 ttl=64 time=0.577 ms
+64 bytes from 192.168.0.91: icmp_seq=45 ttl=64 time=0.463 ms
+64 bytes from 192.168.0.91: icmp_seq=46 ttl=64 time=0.565 ms
+64 bytes from 192.168.0.91: icmp_seq=47 ttl=64 time=0.488 ms
+64 bytes from 192.168.0.91: icmp_seq=48 ttl=64 time=0.551 ms
+64 bytes from 192.168.0.91: icmp_seq=49 ttl=64 time=0.526 ms
+64 bytes from 192.168.0.91: icmp_seq=50 ttl=64 time=0.571 ms
+64 bytes from 192.168.0.91: icmp_seq=51 ttl=64 time=0.472 ms
+64 bytes from 192.168.0.91: icmp_seq=52 ttl=64 time=0.553 ms
+64 bytes from 192.168.0.91: icmp_seq=53 ttl=64 time=0.341 ms
+64 bytes from 192.168.0.91: icmp_seq=54 ttl=64 time=0.559 ms
+64 bytes from 192.168.0.91: icmp_seq=55 ttl=64 time=0.536 ms
+64 bytes from 192.168.0.91: icmp_seq=56 ttl=64 time=0.566 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.91
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifcom[Kngi[K[Kfig eth0 do[K[Kdw[Kown
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ ifconfig
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:898 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:898 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:351969 (351.9 KB)  TX bytes:351969 (351.9 KB)
+
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ scr[K[K[Kexit
+exit
+There are stopped jobs.
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Monday 18 March 2019 12:09:16 PM IST
