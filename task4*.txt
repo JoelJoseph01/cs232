@@ -1,0 +1,71 @@
+Script started on Monday 25 March 2019 11:57:55 AM IST
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ rsync -zvh tt cs17d[1P cs17de cs17dx cs17dt cs17d. cs17dy cs17d[1P cs17dt cs17dx cs17dt cs17d[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcs17s[Kd29@192.168.0.30:/home/cs17s29/tetx[K[Kxt.txt /homew[K/ce c/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+rsync: change_dir "/home/cs17s29" failed: No such file or directory (2)
+
+sent 8 bytes  received 83 bytes  20.22 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1655) [Receiver=3.1.1]
+rsync: [Receiver] write error: Broken pipe (32)
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ rsync -zvh cs17d29@192.168.0.30:/home/cs17s29/text.txt /home/cecc/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C29/text.txt /home/cec/[K[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd29/text.txt /home/cec/[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+rsync: link_stat "/home/cs17d29/text.txt" failed: No such file or directory (2)
+
+sent 8 bytes  received 89 bytes  27.71 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1655) [Receiver=3.1.1]
+rsync: [Receiver] write error: Broken pipe (32)
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ rsync -zvh cs17d29@192.168.0.30:/home/cs17d29/text.txt /home/cecc/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc/[K[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/ [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs//1/7/d/2/9/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/text.txt /home/cs17[1Pd29/[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/text.txt /home/cs17d[1P29/[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/text.txt /home/cs17d2[1P9/[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/text.txt /home/cs17d29[1P/[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/text.txt /home/cs17d29/[K[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/text.txt /home/cs17d29/ [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce/text.txt /home/cs17d29//[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc/text.txt /home/cs17d29/[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+rsync: link_stat "/home/cec/text.txt" failed: No such file or directory (2)
+
+sent 8 bytes  received 85 bytes  26.57 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1655) [Receiver=3.1.1]
+rsync: [Receiver] write error: Broken pipe (32)
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ rsync -zvh cs17d29@192.17[K68.0.30:/home/ce[Ksd[K17d29/res.txt /home/cec [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc [A
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+res.txt
+
+sent 43 bytes  received 78 bytes  26.89 bytes/sec
+total size is 0  speedup is 0.00
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ rsync -zvh res.txt cs17d29@192.168.0.30:/ome[K[K[Khome/h[Kcs18[K7d29
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d29@192.168.0.30's password: 
+res.txt
+
+sent 77 bytes  received 35 bytes  32.00 bytes/sec
+total size is 0  speedup is 0.00
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Monday 25 March 2019 12:04:51 PM IST
