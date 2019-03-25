@@ -30,9 +30,13 @@ eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ab:20
           Interrupt:20 Memory:fbbc0000-fbbe0000 
 
 ]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 192.168.0.90[K[K90
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 192.168.0.90 subnet[K[K[K[K[K[Ken[K[Knetmask 255.2 55.255.0
-]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.2555.255.0[A]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 192.168.0.90 subnet[K[K[K[K[K[Ken[K[Knetmask 255.2 
+55.255.0
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ sudo ifconfig eth0 192.168.0.90 netmask 255.25
+55.255.0[A
+]0;cec-lab2@ceclab2-Veriton-Series: ~cec-lab2@ceclab2-Veriton-Series:~$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K
 eth0      Link encap:Ethernet  HWaddr 10:78:d2:e0:ab:20  
           inet addr:192.168.0.90  Bcast:192.168.0.255  Mask:255.255.255.0
           inet6 addr: fe80::1278:d2ff:fee0:ab20/64 Scope:Link
