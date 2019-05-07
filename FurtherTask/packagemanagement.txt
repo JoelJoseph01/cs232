@@ -1,0 +1,4443 @@
+Script started on Thursday 11 April 2019 11:39:19 AM IST
+declare -x ALL_PROXY="socks://192.168.0.2:3128/"
+declare -x CLUTTER_IM_MODULE="xim"
+declare -x COMPIZ_BIN_PATH="/usr/bin/"
+declare -x COMPIZ_CONFIG_PROFILE="ubuntu"
+declare -x DBUS_SESSION_BUS_ADDRESS="unix:abstract=/tmp/dbus-I2vXyoTOye"
+declare -x DEFAULTS_PATH="/usr/share/gconf/ubuntu.default.path"
+declare -x DESKTOP_SESSION="ubuntu"
+declare -x DISPLAY=":1"
+declare -x GDMSESSION="ubuntu"
+declare -x GDM_LANG="en_US"
+declare -x GNOME_DESKTOP_SESSION_ID="this-is-deprecated"
+declare -x GNOME_KEYRING_CONTROL=""
+declare -x GNOME_KEYRING_PID=""
+declare -x GPG_AGENT_INFO="/home/cec/.gnupg/S.gpg-agent:0:1"
+declare -x GTK2_MODULES="overlay-scrollbar"
+declare -x GTK_IM_MODULE="ibus"
+declare -x GTK_MODULES="gail:atk-bridge:unity-gtk-module"
+declare -x HOME="/home/cec"
+declare -x IM_CONFIG_PHASE="1"
+declare -x INSTANCE=""
+declare -x JOB="unity-settings-daemon"
+declare -x LANG="en_IN"
+declare -x LANGUAGE="en_IN:en"
+declare -x LESSCLOSE="/usr/bin/lesspipe %s %s"
+declare -x LESSOPEN="| /usr/bin/lesspipe %s"
+declare -x LOGNAME="cec"
+declare -x LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"
+declare -x MANDATORY_PATH="/usr/share/gconf/ubuntu.mandatory.path"
+declare -x NO_PROXY="localhost,127.0.0.0/8,::1"
+declare -x OLDPWD
+declare -x PATH="/home/cec/bin:/home/cec/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/ns-allinone-2.35/xgraph-12.2/:/opt/ns-allinone-2.35/bin/:/opt/ns/-allinone-2.35/tcl8.5.10/unix/::/opt/ns-allinone-2.35/ns-2.35/:/opt/ns-allinone-2.35/nam-1.15/:/opt/ns-allinone-2.35/xgraph-12.2/:/opt/ns-allinone-2.35/bin/:/opt/ns/-allinone-2.35/tcl8.5.10/unix/::/opt/ns-allinone-2.35/ns-2.35/:/opt/ns-allinone-2.35/nam-1.15/"
+declare -x PWD="/home/cec"
+declare -x QT4_IM_MODULE="xim"
+declare -x QT_ACCESSIBILITY="1"
+declare -x QT_IM_MODULE="ibus"
+declare -x QT_LINUX_ACCESSIBILITY_ALWAYS_ON="1"
+declare -x QT_QPA_PLATFORMTHEME="appmenu-qt5"
+declare -x SESSION="ubuntu"
+declare -x SESSIONTYPE="gnome-session"
+declare -x SESSION_MANAGER="local/cec-H110M-S2:@/tmp/.ICE-unix/2869,unix/cec-H110M-S2:/tmp/.ICE-unix/2869"
+declare -x SHELL="/bin/bash"
+declare -x SHLVL="3"
+declare -x SSH_AUTH_SOCK="/run/user/1000/keyring/ssh"
+declare -x TCL_LIBRARY=":/opt/ns-allinone-2.35/tcl8.5.10/library/:/usr/lib/:/opt/ns-allinone-2.35/tcl8.5.10/library/:/usr/lib/"
+declare -x TERM="xterm-256color"
+declare -x UNITY_DEFAULT_PROFILE="unity"
+declare -x UNITY_HAS_3D_SUPPORT="true"
+declare -x UPSTART_EVENTS="xsession started"
+declare -x UPSTART_INSTANCE=""
+declare -x UPSTART_JOB="unity7"
+declare -x UPSTART_SESSION="unix:abstract=/com/ubuntu/upstart-session/1000/2613"
+declare -x USER="cec"
+declare -x VTE_VERSION="4205"
+declare -x WINDOWID="56637329"
+declare -x XAUTHORITY="/home/cec/.Xauthority"
+declare -x XDG_CONFIG_DIRS="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg"
+declare -x XDG_CURRENT_DESKTOP="Unity"
+declare -x XDG_DATA_DIRS="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop"
+declare -x XDG_GREETER_DATA_DIR="/var/lib/lightdm-data/cec"
+declare -x XDG_MENU_PREFIX="gnome-"
+declare -x XDG_RUNTIME_DIR="/run/user/1000"
+declare -x XDG_SEAT="seat0"
+declare -x XDG_SEAT_PATH="/org/freedesktop/DisplayManager/Seat0"
+declare -x XDG_SESSION_DESKTOP="ubuntu"
+declare -x XDG_SESSION_ID="c4"
+declare -x XDG_SESSION_PATH="/org/freedesktop/DisplayManager/Session1"
+declare -x XDG_SESSION_TYPE="x11"
+declare -x XDG_VTNR="8"
+declare -x XMODIFIERS="@im=ibus"
+declare -x all_proxy="socks://192.168.0.2:3128/"
+declare -x ftp_proxy="ftp://192.168.0.2:3128/"
+declare -x http_proxy="http://192.168.0.2:3128/"
+declare -x https_proxy="https://192.168.0.2:3128/"
+declare -x no_proxy="localhost,127.0.0.0/8,::1"
+declare -x socks_proxy="socks://192.168.0.2:3128/"
+bash: /opt/ns-allinone-2.35/tk8.5.10/unix/: No such file or directory
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudop[K apt-get upgrade ubun[Kntu
+[sudo] password for cec: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package ubuntu
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudp a[K[K[K0[Ko apt-get upgrade
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following packages have been kept back:
+  nam
+The following packages will be upgraded:
+  libsnapd-glib1 wget wpasupplicant
+3 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1,275 kB of archives.
+After this operation, 29.7 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 wget amd64 1.17.1-1ubuntu1.5 [299 kB]
+
+0% [1 wget 2,475 B/299 kB 1%]
+                             
+25% [Working]
+             
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libsnapd-glib1 amd64 1.47-0ubuntu0.16.04.0 [74.9 kB]
+
+26% [2 libsnapd-glib1 7,855 B/74.9 kB 10%]
+                                          
+37% [Waiting for headers]
+                         
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 wpasupplicant amd64 2.4-0ubuntu6.4 [902 kB]
+
+37% [3 wpasupplicant 1,109 B/902 kB 0%]
+43% [3 wpasupplicant 104 kB/902 kB 12%]
+                                       
+100% [Working]
+              
+Fetched 1,275 kB in 1s (893 kB/s)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 231600 files and directories currently installed.)
+Preparing to unpack .../wget_1.17.1-1ubuntu1.5_amd64.deb ...
+Unpacking wget (1.17.1-1ubuntu1.5) over (1.17.1-1ubuntu1.4) ...
+Preparing to unpack .../libsnapd-glib1_1.47-0ubuntu0.16.04.0_amd64.deb ...
+Unpacking libsnapd-glib1:amd64 (1.47-0ubuntu0.16.04.0) over (1.33-0ubuntu0.16.04.1) ...
+Preparing to unpack .../wpasupplicant_2.4-0ubuntu6.4_amd64.deb ...
+Unpacking wpasupplicant (2.4-0ubuntu6.4) over (2.4-0ubuntu6.3) ...
+Processing triggers for install-info (6.1.0.dfsg.1-5) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for dbus (1.10.6-1ubuntu3.3) ...
+Setting up wget (1.17.1-1ubuntu1.5) ...
+Setting up libsnapd-glib1:amd64 (1.47-0ubuntu0.16.04.0) ...
+Setting up wpasupplicant (2.4-0ubuntu6.4) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install APT
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package APT
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install APT[4Pupgrade[C[C ubuntu[Kinstall APT[K[K[KSynao[Kptic
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package Synaptic
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-gt[Ket install systemcd
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package systemcd
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo aot^?[K[K[Kpt-get install perl
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+perl is already the newest version (5.22.1-9ubuntu0.6).
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install aopa[K[K[Kpache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+0 upgraded, 9 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1,541 kB of archives.
+After this operation, 6,373 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Err:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libapr1 amd64 1.5.2-3
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+0% [Working]
+            
+Err:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1 amd64 1.5.4-1build1
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+            
+Err:3 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-dbd-sqlite3 amd64 1.5.4-1build1
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+0% [Working]
+            
+Err:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-ldap amd64 1.5.4-1build1
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+            
+Err:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.1-0 amd64 5.1.5-8ubuntu1
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+0% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Err:6 http://security.ubuntu.com/ubuntu xenial-security/main amd64 apache2-bin amd64 2.4.18-2ubuntu3.10
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+                                            
+Ign:7 http://security.ubuntu.com/ubuntu xenial-security/main amd64 apache2-utils amd64 2.4.18-2ubuntu3.10
+
+0% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 apache2-data all 2.4.18-2ubuntu3.10
+
+                                            
+Ign:9 http://security.ubuntu.com/ubuntu xenial-security/main amd64 apache2 amd64 2.4.18-2ubuntu3.10
+
+                                            
+0% [Working]
+            
+Err:6 http://security.ubuntu.com/ubuntu xenial-security/main amd64 apache2-bin amd64 2.4.18-2ubuntu3.10
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+0% [Working]
+            
+Err:7 http://security.ubuntu.com/ubuntu xenial-security/main amd64 apache2-utils amd64 2.4.18-2ubuntu3.10
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+            
+Ign:8 http://security.ubuntu.com/ubuntu xenial-security/main amd64 apache2-data all 2.4.18-2ubuntu3.10
+
+0% [Working]
+            
+Err:9 http://security.ubuntu.com/ubuntu xenial-security/main amd64 apache2 amd64 2.4.18-2ubuntu3.10
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+0% [Working]
+            
+Err:8 http://security.ubuntu.com/ubuntu xenial-security/main i386 apache2-data all 2.4.18-2ubuntu3.10
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+0% [Working]
+            
+Err:8 http://security.ubuntu.com/ubuntu xenial-security/main i386 apache2-data all 2.4.18-2ubuntu3.10
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+0% [Working]
+            
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/a/apr/libapr1_1.5.2-3_amd64.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/a/apr-util/libaprutil1_1.5.4-1build1_amd64.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/a/apr-util/libaprutil1-dbd-sqlite3_1.5.4-1build1_amd64.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/a/apr-util/libaprutil1-ldap_1.5.4-1build1_amd64.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/pool/main/l/lua5.1/liblua5.1-0_5.1.5-8ubuntu1_amd64.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-bin_2.4.18-2ubuntu3.10_amd64.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-utils_2.4.18-2ubuntu3.10_amd64.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/a/apache2/apache2-data_2.4.18-2ubuntu3.10_all.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Failed to fetch http://security.ubuntu.com/ubuntu/pool/main/a/apache2/apache2_2.4.18-2ubuntu3.10_amd64.deb  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get update
+
+0% [Working]
+            
+Err:1 https://packages.microsoft.com/repos/vscode stable InRelease
+  FailReason: ConnectionRefused
+
+0% [Working]
+            
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+
+0% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:3 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+
+                                            
+Ign:4 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+
+                                            
+Ign:5 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+
+                                            
+Ign:6 http://security.ubuntu.com/ubuntu xenial-security InRelease
+
+                                            
+0% [Working]
+            
+Ign:7 http://dl.google.com/linux/chrome/deb stable Release
+
+0% [Working]
+            
+Ign:8 http://in.archive.ubuntu.com/ubuntu xenial Release
+
+            
+Ign:9 http://in.archive.ubuntu.com/ubuntu xenial-updates Release
+
+            
+Ign:10 http://security.ubuntu.com/ubuntu xenial-security Release
+
+0% [Working]
+            
+Ign:11 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages.diff/Index
+
+            
+Ign:12 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages.diff/Index
+
+0% [Working]
+            
+Ign:13 http://in.archive.ubuntu.com/ubuntu xenial-backports Release
+
+            
+Ign:14 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages.diff/Index
+
+            
+Ign:15 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages.diff/Index
+
+            
+Ign:16 http://in.archive.ubuntu.com/ubuntu xenial/main all Packages
+
+            
+Ign:17 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en_IN
+
+            
+Ign:18 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en.diff/Index
+
+            
+Ign:19 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:20 http://in.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons.diff/Index
+
+            
+Ign:21 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages.diff/Index
+
+3% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:22 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages.diff/Index
+
+                                            
+Ign:23 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages.diff/Index
+
+                                            
+Ign:24 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+
+                                            
+Ign:25 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en_IN
+
+                                            
+Ign:26 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en.diff/Index
+
+                                            
+Ign:27 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata.diff/Index
+
+                                            
+Ign:28 http://dl.google.com/linux/chrome/deb stable/main all Packages
+
+                                            
+Ign:29 http://dl.google.com/linux/chrome/deb stable/main Translation-en_IN
+
+                                            
+Ign:30 http://dl.google.com/linux/chrome/deb stable/main Translation-en
+
+                                            
+Ign:31 http://dl.google.com/linux/chrome/deb stable/main amd64 DEP-11 Metadata
+
+                                            
+Ign:32 http://dl.google.com/linux/chrome/deb stable/main DEP-11 64x64 Icons
+
+3% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:33 http://in.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+
+                                            
+Ign:34 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en_IN
+
+                                            
+Ign:35 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en.diff/Index
+
+                                            
+Ign:36 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata.diff/Index
+
+                                            
+Ign:37 http://in.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+
+                                            
+Ign:38 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages.diff/Index
+
+                                            
+Ign:39 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages.diff/Index
+
+                                            
+Ign:40 http://in.archive.ubuntu.com/ubuntu xenial/universe all Packages
+
+                                            
+Ign:41 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en_IN
+
+                                            
+Ign:42 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en.diff/Index
+
+                                            
+Ign:43 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons.diff/Index
+
+                                            
+Ign:44 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages.diff/Index
+
+                                            
+Ign:45 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages.diff/Index
+
+                                            
+Ign:46 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+
+                                            
+Ign:47 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en_IN
+
+                                            
+4% [Working]
+            
+Ign:48 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en.diff/Index
+
+            
+Ign:49 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:50 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+
+            
+Ign:51 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages.diff/Index
+
+            
+Ign:52 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages.diff/Index
+
+            
+Ign:53 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+
+            
+Ign:28 http://dl.google.com/linux/chrome/deb stable/main all Packages
+
+            
+Ign:29 http://dl.google.com/linux/chrome/deb stable/main Translation-en_IN
+
+            
+Ign:30 http://dl.google.com/linux/chrome/deb stable/main Translation-en
+
+            
+Ign:31 http://dl.google.com/linux/chrome/deb stable/main amd64 DEP-11 Metadata
+
+4% [Working]
+            
+Ign:54 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:55 http://in.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons.diff/Index
+
+            
+Ign:56 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages.diff/Index
+
+            
+Ign:57 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages.diff/Index
+
+            
+Ign:58 http://in.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+
+            
+Ign:59 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en_IN
+
+            
+Ign:60 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en.diff/Index
+
+            
+Ign:61 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:62 http://in.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons.diff/Index
+
+            
+Ign:63 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages.diff/Index
+
+            
+Ign:64 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+
+            
+Ign:65 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en_IN
+
+            
+Ign:66 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en.diff/Index
+
+            
+Ign:67 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:68 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons.diff/Index
+
+5% [Working]
+            
+Ign:32 http://dl.google.com/linux/chrome/deb stable/main DEP-11 64x64 Icons
+
+5% [Working]
+            
+Ign:69 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages.diff/Index
+
+            
+Ign:70 http://in.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+
+            
+Ign:71 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en_IN
+
+            
+Ign:72 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en.diff/Index
+
+            
+Ign:73 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:74 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages.diff/Index
+
+            
+Ign:75 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages.diff/Index
+
+            
+Ign:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+
+            
+Ign:77 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en_IN
+
+            
+Ign:78 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en.diff/Index
+
+            
+Ign:79 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:80 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons.diff/Index
+
+            
+Ign:81 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+
+            
+Ign:82 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+
+            
+Ign:24 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+
+            
+Ign:53 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+
+            
+Ign:28 http://dl.google.com/linux/chrome/deb stable/main all Packages
+
+            
+Ign:29 http://dl.google.com/linux/chrome/deb stable/main Translation-en_IN
+
+            
+Ign:30 http://dl.google.com/linux/chrome/deb stable/main Translation-en
+
+6% [Working]
+            
+Ign:83 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons.diff/Index
+
+            
+Ign:84 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages.diff/Index
+
+            
+Ign:85 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages.diff/Index
+
+            
+Ign:86 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+
+            
+Ign:87 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en_IN
+
+6% [Working]
+            
+Ign:31 http://dl.google.com/linux/chrome/deb stable/main amd64 DEP-11 Metadata
+
+            
+Ign:32 http://dl.google.com/linux/chrome/deb stable/main DEP-11 64x64 Icons
+
+            
+Ign:53 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+
+            
+Ign:28 http://dl.google.com/linux/chrome/deb stable/main all Packages
+
+            
+Ign:29 http://dl.google.com/linux/chrome/deb stable/main Translation-en_IN
+
+6% [Working]
+            
+Ign:88 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en.diff/Index
+
+            
+Ign:89 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:90 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+
+            
+Ign:91 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages.diff/Index
+
+            
+Ign:92 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages.diff/Index
+
+            
+Ign:93 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+
+            
+Ign:94 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en_IN
+
+            
+Ign:95 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en.diff/Index
+
+            
+Ign:96 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:97 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons.diff/Index
+
+            
+Ign:25 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en_IN
+
+            
+Ign:98 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+
+            
+Ign:99 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+
+            
+Ign:100 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+
+            
+Ign:101 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+
+            
+Ign:102 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+
+            
+Ign:46 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+
+            
+Ign:47 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en_IN
+
+            
+Ign:103 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+
+            
+Ign:104 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+
+7% [Working]
+            
+Ign:30 http://dl.google.com/linux/chrome/deb stable/main Translation-en
+
+7% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:105 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages.diff/Index
+
+                                            
+Ign:106 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages.diff/Index
+
+                                            
+Ign:107 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+
+                                            
+Ign:108 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en_IN
+
+                                            
+Ign:31 http://dl.google.com/linux/chrome/deb stable/main amd64 DEP-11 Metadata
+
+                                            
+Ign:32 http://dl.google.com/linux/chrome/deb stable/main DEP-11 64x64 Icons
+
+                                            
+Ign:53 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+
+                                            
+Ign:28 http://dl.google.com/linux/chrome/deb stable/main all Packages
+
+                                            
+7% [Working]
+            
+Ign:109 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en.diff/Index
+
+            
+Ign:110 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:111 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons.diff/Index
+
+            
+Ign:112 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages.diff/Index
+
+            
+Ign:113 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages.diff/Index
+
+            
+Ign:114 http://in.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+
+            
+Ign:50 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+
+            
+Ign:115 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+
+            
+Ign:116 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+
+            
+Ign:64 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+
+            
+Ign:65 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en_IN
+
+            
+Ign:117 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+
+            
+Ign:118 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+
+            
+Ign:119 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+
+            
+Ign:120 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+
+            
+Ign:121 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+
+7% [Working]
+            
+Ign:122 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en_IN
+
+            
+Ign:123 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en.diff/Index
+
+            
+Ign:124 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:125 http://in.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons.diff/Index
+
+            
+Ign:126 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+
+            
+Ign:127 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+
+            
+Ign:128 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+
+            
+Ign:129 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en_IN
+
+            
+Ign:130 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+
+            
+Ign:131 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata.diff/Index
+
+            
+Ign:29 http://dl.google.com/linux/chrome/deb stable/main Translation-en_IN
+
+            
+Ign:30 http://dl.google.com/linux/chrome/deb stable/main Translation-en
+
+            
+Ign:31 http://dl.google.com/linux/chrome/deb stable/main amd64 DEP-11 Metadata
+
+            
+Ign:32 http://dl.google.com/linux/chrome/deb stable/main DEP-11 64x64 Icons
+
+            
+Ign:53 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+
+8% [Working]
+            
+Ign:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+
+            
+Ign:77 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en_IN
+
+            
+Ign:132 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+
+            
+Ign:133 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+
+8% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:134 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+
+                                            
+Ign:135 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages.diff/Index
+
+                                            
+Ign:136 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages.diff/Index
+
+                                            
+Ign:137 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+
+                                            
+Ign:138 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en_IN
+
+                                            
+Ign:139 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en.diff/Index
+
+                                            
+Ign:140 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata.diff/Index
+
+                                            
+Ign:141 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+
+                                            
+Ign:81 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+
+                                            
+Ign:82 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+
+                                            
+Ign:24 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+
+                                            
+Ign:25 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en_IN
+
+                                            
+Ign:98 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+
+8% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:142 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons.diff/Index
+
+                                            
+Ign:143 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+
+                                            
+Ign:144 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+
+                                            
+Ign:28 http://dl.google.com/linux/chrome/deb stable/main all Packages
+
+                                            
+Ign:29 http://dl.google.com/linux/chrome/deb stable/main Translation-en_IN
+
+                                            
+Ign:30 http://dl.google.com/linux/chrome/deb stable/main Translation-en
+
+                                            
+Ign:31 http://dl.google.com/linux/chrome/deb stable/main amd64 DEP-11 Metadata
+
+                                            
+Ign:32 http://dl.google.com/linux/chrome/deb stable/main DEP-11 64x64 Icons
+
+                                            
+8% [Working]
+            
+Ign:145 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+
+            
+Ign:99 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+
+            
+Ign:100 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+
+            
+Ign:101 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+
+            
+Ign:102 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+
+            
+Ign:46 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+
+            
+Ign:47 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en_IN
+
+            
+Ign:103 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+
+            
+Ign:104 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+
+            
+Ign:50 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+
+            
+Ign:115 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+
+8% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:146 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en_IN
+
+                                            
+Ign:147 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+
+                                            
+Ign:148 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata.diff/Index
+
+                                            
+Ign:149 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons.diff/Index
+
+                                            
+Ign:150 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+
+                                            
+Ign:151 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+
+                                            
+Ign:16 http://in.archive.ubuntu.com/ubuntu xenial/main all Packages
+
+                                            
+Ign:17 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en_IN
+
+                                            
+Ign:152 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en
+
+                                            
+9% [Working]
+            
+Err:53 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+9% [Working]
+            
+Ign:153 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+
+9% [Working]
+            
+Ign:154 http://in.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+
+            
+Ign:155 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+
+            
+Ign:156 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+
+            
+Ign:33 http://in.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+
+            
+Ign:116 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+
+            
+Ign:64 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+
+            
+Ign:65 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en_IN
+
+            
+Ign:117 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+
+            
+Ign:118 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+
+            
+Ign:119 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+
+            
+Ign:120 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+
+            
+Ign:121 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+
+            
+Ign:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+
+            
+Ign:77 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en_IN
+
+9% [Working]
+            
+Ign:34 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en_IN
+
+            
+Ign:157 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+
+            
+Ign:158 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+
+            
+Ign:37 http://in.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+
+            
+Ign:159 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+
+            
+Ign:160 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+
+            
+Ign:40 http://in.archive.ubuntu.com/ubuntu xenial/universe all Packages
+
+            
+Ign:41 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en_IN
+
+            
+Ign:161 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+
+            
+Ign:162 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+
+9% [Working]
+            
+Ign:132 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+
+9% [Working]
+            
+Ign:133 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+
+            
+Ign:141 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+
+            
+Ign:81 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+
+9% [Working]
+            
+Ign:82 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+
+            
+Ign:24 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+
+            
+Ign:25 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en_IN
+
+            
+Ign:98 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+
+            
+Ign:99 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+
+            
+Ign:100 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+
+9% [Working]
+            
+Ign:163 http://in.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+
+            
+Ign:164 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+
+            
+Ign:165 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+
+            
+Ign:58 http://in.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+
+            
+Ign:101 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+
+            
+Ign:102 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+
+            
+Ign:46 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+
+            
+Ign:47 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en_IN
+
+9% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:59 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en_IN
+
+                                            
+Ign:166 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+
+                                            
+Ign:167 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+
+                                            
+Ign:168 http://in.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+
+                                            
+Ign:169 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+
+                                            
+Ign:170 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+
+                                            
+9% [Working]
+            
+Ign:103 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+
+            
+Ign:104 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+
+            
+Ign:50 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+
+            
+Ign:115 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+
+            
+Ign:116 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+
+            
+Ign:64 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+
+            
+Ign:65 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en_IN
+
+            
+Ign:117 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+
+            
+Ign:118 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+
+            
+Ign:119 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+
+9% [Working]
+            
+Ign:70 http://in.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+
+            
+Ign:71 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en_IN
+
+            
+Ign:171 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+
+            
+Ign:172 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+
+            
+Ign:173 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+
+            
+Ign:174 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+
+            
+Ign:175 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+
+            
+Ign:86 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+
+            
+Ign:87 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en_IN
+
+            
+Ign:176 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+
+9% [Working]
+            
+Ign:120 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+
+9% [Working]
+            
+Ign:121 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+
+            
+Ign:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+
+9% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:77 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en_IN
+
+                                            
+Ign:132 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+
+                                            
+Ign:133 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+
+                                            
+Ign:141 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+
+                                            
+Ign:81 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+
+                                            
+Ign:82 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+
+                                            
+9% [Working]
+            
+Ign:177 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+
+            
+Ign:90 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+
+            
+Ign:178 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+
+            
+Ign:179 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+
+            
+Ign:93 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+
+            
+Ign:24 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+
+            
+Ign:25 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en_IN
+
+            
+Ign:98 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+
+            
+Ign:99 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+
+9% [Working]
+            
+Ign:94 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en_IN
+
+            
+Ign:180 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+
+            
+Ign:181 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+
+            
+Ign:182 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+
+            
+Ign:183 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+
+9% [Working]
+            
+Ign:100 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+
+            
+Ign:101 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+
+            
+Ign:102 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+
+            
+Ign:46 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+
+            
+Ign:47 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en_IN
+
+            
+Ign:103 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+
+            
+Ign:104 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+
+9% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:184 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+
+                                            
+Ign:107 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+
+                                            
+Ign:108 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en_IN
+
+                                            
+Ign:185 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+
+                                            
+Ign:186 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+
+                                            
+Ign:187 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+
+                                            
+Ign:188 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+
+                                            
+Ign:189 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+
+                                            
+Ign:50 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+
+                                            
+Ign:115 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+
+                                            
+Ign:116 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+
+9% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:114 http://in.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+
+                                            
+Ign:122 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en_IN
+
+                                            
+9% [Working]
+            
+Ign:64 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+
+9% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:65 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en_IN
+
+                                            
+Ign:117 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+
+                                            
+Ign:118 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+
+9% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                            
+Ign:119 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+
+                                            
+Ign:120 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+
+                                            
+Ign:121 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+
+                                            
+Ign:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+
+                                            
+Ign:77 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en_IN
+
+                                            
+Ign:132 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+
+                                            
+9% [Working]
+            
+Ign:190 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+
+            
+Ign:191 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+
+            
+Ign:192 http://in.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+
+            
+Ign:126 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+
+            
+Ign:127 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+
+            
+Ign:128 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+
+            
+Ign:129 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en_IN
+
+            
+Ign:130 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+
+            
+Ign:193 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+
+            
+Ign:134 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+
+            
+Ign:133 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+
+            
+Ign:141 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+
+            
+Ign:81 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+
+            
+Ign:82 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+
+9% [Working]
+            
+Ign:24 http://security.ubuntu.com/ubuntu xenial-security/main all Packages
+
+9% [Working]
+            
+Ign:194 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+
+            
+Ign:195 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+
+            
+Ign:25 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en_IN
+
+            
+Ign:98 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+
+            
+Ign:99 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+
+            
+Ign:100 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+
+            
+Ign:101 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+
+            
+Ign:102 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+
+            
+Ign:46 http://security.ubuntu.com/ubuntu xenial-security/restricted all Packages
+
+            
+Ign:47 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en_IN
+
+            
+Ign:103 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+
+9% [Working]
+            
+Ign:137 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+
+            
+Ign:138 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en_IN
+
+            
+Ign:196 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+
+            
+Ign:197 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+
+            
+Ign:198 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+
+            
+Ign:143 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+
+            
+Ign:144 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+
+            
+Ign:145 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+
+9% [Working]
+            
+Ign:104 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+
+            
+Ign:50 http://security.ubuntu.com/ubuntu xenial-security/restricted DEP-11 64x64 Icons
+
+            
+Ign:115 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+
+            
+Ign:116 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+
+            
+Ign:64 http://security.ubuntu.com/ubuntu xenial-security/universe all Packages
+
+            
+Ign:65 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en_IN
+
+            
+Ign:117 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en
+
+            
+Ign:118 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata
+
+            
+Ign:119 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons
+
+            
+Ign:120 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages
+
+9% [Working]
+            
+Ign:146 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en_IN
+
+            
+Ign:147 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+
+            
+Ign:199 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+
+            
+Ign:200 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+
+            
+Ign:150 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+
+            
+Ign:151 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+
+            
+Ign:16 http://in.archive.ubuntu.com/ubuntu xenial/main all Packages
+
+            
+Ign:17 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en_IN
+
+            
+Ign:152 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en
+
+            
+Ign:153 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+
+9% [Working]
+            
+Ign:121 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages
+
+9% [Working]
+            
+Ign:154 http://in.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+
+            
+Ign:155 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+
+            
+Ign:76 http://security.ubuntu.com/ubuntu xenial-security/multiverse all Packages
+
+            
+Ign:77 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en_IN
+
+            
+Ign:132 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en
+
+            
+Ign:133 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata
+
+            
+Ign:141 http://security.ubuntu.com/ubuntu xenial-security/multiverse DEP-11 64x64 Icons
+
+            
+Err:81 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+            
+Ign:82 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages
+
+            
+Ign:98 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en
+
+            
+Ign:99 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:156 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+
+                                             
+Ign:33 http://in.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+
+                                             
+Ign:34 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en_IN
+
+                                             
+Ign:157 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+
+                                             
+Ign:158 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+
+                                             
+Ign:37 http://in.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+
+                                             
+Ign:159 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+
+                                             
+Ign:160 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+
+                                             
+11% [Working]
+             
+Ign:100 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons
+
+             
+Ign:101 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 Packages
+
+             
+Ign:102 http://security.ubuntu.com/ubuntu xenial-security/restricted i386 Packages
+
+             
+Ign:103 http://security.ubuntu.com/ubuntu xenial-security/restricted Translation-en
+
+             
+Ign:104 http://security.ubuntu.com/ubuntu xenial-security/restricted amd64 DEP-11 Metadata
+
+             
+Ign:115 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages
+
+             
+Ign:116 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages
+
+11% [Working]
+             
+Ign:40 http://in.archive.ubuntu.com/ubuntu xenial/universe all Packages
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:41 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en_IN
+
+                                             
+Ign:161 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+
+                                             
+Ign:162 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:163 http://in.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+
+                                             
+Ign:164 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+
+                                             
+Ign:165 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+
+                                             
+Ign:58 http://in.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+
+                                             
+Ign:59 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en_IN
+
+                                             
+Ign:166 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+
+                                             
+11% [Working]
+             
+Ign:167 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+
+             
+Ign:168 http://in.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+
+             
+Ign:169 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+
+             
+Ign:170 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+
+11% [Working]
+             
+Ign:70 http://in.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+
+11% [Working]
+             
+Ign:71 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en_IN
+
+             
+Ign:171 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:172 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+
+                                             
+Ign:173 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+
+                                             
+Ign:174 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+
+                                             
+Ign:175 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+
+                                             
+Ign:86 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+
+                                             
+Ign:87 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en_IN
+
+                                             
+11% [Working]
+             
+Ign:176 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+
+             
+Ign:177 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+
+             
+Ign:90 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+
+             
+Ign:178 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+
+11% [Working]
+             
+Ign:179 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+
+11% [Working]
+             
+Ign:93 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+
+             
+Ign:94 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en_IN
+
+             
+Ign:180 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+
+11% [Working]
+             
+Ign:181 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+
+             
+Ign:182 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+
+             
+Ign:183 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+
+             
+Ign:184 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+
+             
+Ign:107 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+
+             
+Ign:108 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en_IN
+
+11% [Working]
+             
+Ign:185 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+
+             
+Ign:186 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+
+             
+Ign:187 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+
+             
+Ign:188 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+
+11% [Working]
+             
+Ign:189 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+
+11% [Working]
+             
+Ign:114 http://in.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+
+             
+Ign:122 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en_IN
+
+             
+Ign:190 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:191 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+
+                                             
+Ign:192 http://in.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+
+                                             
+Ign:126 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+
+                                             
+Ign:127 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+
+                                             
+Ign:128 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+
+                                             
+Ign:129 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en_IN
+
+                                             
+11% [Working]
+             
+Ign:130 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+
+             
+Ign:193 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+
+             
+Ign:134 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+
+             
+Ign:194 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+
+11% [Working]
+             
+Ign:195 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+
+11% [Working]
+             
+Ign:137 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+
+             
+Ign:138 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en_IN
+
+11% [Working]
+             
+Ign:196 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+
+             
+Ign:197 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+
+             
+Ign:198 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:143 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+
+                                             
+Ign:144 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+
+                                             
+Ign:145 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:146 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en_IN
+
+                                             
+Ign:147 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+
+                                             
+Ign:199 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+
+                                             
+Ign:200 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+
+                                             
+11% [Working]
+             
+Ign:150 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+
+             
+Ign:151 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+
+             
+Ign:16 http://in.archive.ubuntu.com/ubuntu xenial/main all Packages
+
+             
+Ign:17 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en_IN
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:152 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en
+
+                                             
+Ign:153 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+
+                                             
+11% [Working]
+             
+Ign:154 http://in.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+
+11% [Working]
+             
+Ign:155 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+
+             
+Ign:156 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:33 http://in.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+
+                                             
+Ign:34 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en_IN
+
+                                             
+Ign:157 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+
+                                             
+Ign:158 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+
+                                             
+Ign:37 http://in.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+
+                                             
+Ign:159 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+
+                                             
+Ign:160 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+
+                                             
+11% [Working]
+             
+Ign:40 http://in.archive.ubuntu.com/ubuntu xenial/universe all Packages
+
+             
+Ign:41 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en_IN
+
+             
+Ign:161 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+
+11% [Working]
+             
+Ign:162 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:163 http://in.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+
+             
+Ign:164 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+
+             
+Ign:165 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+
+             
+Ign:58 http://in.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+
+11% [Working]
+             
+Ign:59 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en_IN
+
+             
+Ign:166 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+
+             
+Ign:167 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+
+             
+Ign:168 http://in.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+
+             
+Ign:169 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+
+11% [Working]
+             
+Ign:170 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+
+             
+Ign:70 http://in.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+
+             
+Ign:71 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en_IN
+
+             
+Ign:171 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+
+             
+Ign:172 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:173 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+
+11% [Working]
+             
+Ign:174 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+
+             
+Ign:175 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:86 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+
+                                             
+Ign:87 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en_IN
+
+                                             
+Ign:176 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+
+                                             
+Ign:177 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+
+                                             
+Ign:90 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:178 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+
+                                             
+Ign:179 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+
+                                             
+Ign:93 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+
+                                             
+Ign:94 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en_IN
+
+                                             
+Ign:180 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+
+                                             
+11% [Working]
+             
+Ign:181 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:182 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+
+             
+Ign:183 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+
+             
+Ign:184 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+
+11% [Working]
+             
+Ign:107 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+
+             
+Ign:108 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en_IN
+
+             
+Ign:185 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+
+             
+Ign:186 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+
+             
+Ign:187 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+
+             
+Ign:188 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+
+11% [Working]
+             
+Ign:189 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+
+             
+Ign:114 http://in.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+
+             
+Ign:122 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en_IN
+
+             
+Ign:190 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+
+11% [Working]
+             
+Ign:191 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:192 http://in.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+
+             
+Ign:126 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+
+             
+Ign:127 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+
+             
+Ign:128 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+
+11% [Working]
+             
+Ign:129 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en_IN
+
+             
+Ign:130 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+
+             
+Ign:193 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+
+             
+Ign:134 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+
+             
+Ign:194 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+
+11% [Working]
+             
+Ign:195 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+
+             
+Ign:137 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+
+             
+Ign:138 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en_IN
+
+             
+Ign:196 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+
+             
+Ign:197 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:198 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+
+11% [Working]
+             
+Ign:143 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+
+             
+Ign:144 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+
+             
+Ign:145 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+
+11% [Working]
+             
+Ign:146 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en_IN
+
+             
+Ign:147 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+
+             
+Ign:199 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+
+             
+Ign:200 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+
+             
+Ign:150 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+
+             
+Ign:151 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+
+11% [Working]
+             
+Ign:16 http://in.archive.ubuntu.com/ubuntu xenial/main all Packages
+
+             
+Ign:17 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en_IN
+
+             
+Ign:152 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en
+
+             
+Ign:153 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:154 http://in.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+
+11% [Working]
+             
+Ign:155 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+
+             
+Ign:156 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+
+             
+Ign:33 http://in.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+
+11% [Working]
+             
+Ign:34 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en_IN
+
+             
+Ign:157 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+
+             
+Ign:158 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+
+             
+Ign:37 http://in.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+
+             
+Ign:159 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+
+             
+Ign:160 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+
+11% [Working]
+             
+Ign:40 http://in.archive.ubuntu.com/ubuntu xenial/universe all Packages
+
+             
+Ign:41 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en_IN
+
+             
+Ign:161 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+
+             
+Ign:162 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:163 http://in.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+
+11% [Working]
+             
+Ign:164 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+
+             
+Ign:165 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+
+             
+Ign:58 http://in.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+
+11% [Working]
+             
+Ign:59 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en_IN
+
+             
+Ign:166 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+
+             
+Ign:167 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+
+             
+Ign:168 http://in.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+
+             
+Ign:169 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+
+             
+Ign:170 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+
+11% [Working]
+             
+Ign:70 http://in.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+
+             
+Ign:71 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en_IN
+
+             
+Ign:171 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+
+             
+Ign:172 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:173 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+
+11% [Working]
+             
+Ign:174 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+
+             
+Ign:175 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+
+             
+Ign:86 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+
+11% [Working]
+             
+Ign:87 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en_IN
+
+             
+Ign:176 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+
+             
+Ign:177 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+
+             
+Ign:90 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+
+             
+Ign:178 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:179 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+
+                                             
+Ign:93 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+
+                                             
+Ign:94 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en_IN
+
+                                             
+Ign:180 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+
+                                             
+Ign:181 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+
+                                             
+11% [Working]
+             
+Ign:182 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+
+11% [Working]
+             
+Ign:183 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+
+             
+Ign:184 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:107 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+
+                                             
+Ign:108 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en_IN
+
+                                             
+Ign:185 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+
+                                             
+Ign:186 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+
+                                             
+11% [Working]
+             
+Ign:187 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+
+             
+Ign:188 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+
+             
+Ign:189 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+
+             
+Ign:114 http://in.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+
+             
+Ign:122 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en_IN
+
+             
+Ign:190 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+
+11% [Working]
+             
+Ign:191 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:192 http://in.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+
+             
+Ign:126 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+
+             
+Ign:127 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+
+             
+Ign:128 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+
+11% [Working]
+             
+Ign:129 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en_IN
+
+             
+Ign:130 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+
+             
+Ign:193 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+
+             
+Ign:134 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+
+             
+Ign:194 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+
+11% [Working]
+             
+Ign:195 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+
+             
+Ign:137 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+
+             
+Ign:138 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en_IN
+
+             
+Ign:196 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en
+
+             
+Ign:197 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata
+
+11% [Working]
+             
+Ign:198 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons
+
+11% [Working]
+             
+Ign:143 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 Packages
+
+             
+Ign:144 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse i386 Packages
+
+             
+Ign:145 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse all Packages
+
+             
+Ign:146 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en_IN
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:147 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse Translation-en
+
+                                             
+Ign:199 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse amd64 DEP-11 Metadata
+
+                                             
+Ign:200 http://in.archive.ubuntu.com/ubuntu xenial-backports/multiverse DEP-11 64x64 Icons
+
+                                             
+Ign:150 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+
+                                             
+Ign:151 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+
+                                             
+11% [Working]
+             
+Ign:16 http://in.archive.ubuntu.com/ubuntu xenial/main all Packages
+
+             
+Ign:17 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en_IN
+
+             
+Ign:152 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en
+
+             
+Ign:153 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+
+11% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:154 http://in.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+
+                                             
+11% [Working]
+             
+Ign:155 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+
+11% [Working]
+             
+Ign:156 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+
+             
+Ign:33 http://in.archive.ubuntu.com/ubuntu xenial/restricted all Packages
+
+             
+Ign:34 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en_IN
+
+12% [Working]
+             
+Ign:157 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+
+             
+Ign:158 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+
+             
+Ign:37 http://in.archive.ubuntu.com/ubuntu xenial/restricted DEP-11 64x64 Icons
+
+             
+Ign:159 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+
+             
+Ign:160 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+
+             
+Ign:40 http://in.archive.ubuntu.com/ubuntu xenial/universe all Packages
+
+12% [Working]
+             
+Ign:41 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en_IN
+
+             
+Ign:161 http://in.archive.ubuntu.com/ubuntu xenial/universe Translation-en
+
+             
+Ign:162 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 DEP-11 Metadata
+
+             
+Ign:163 http://in.archive.ubuntu.com/ubuntu xenial/universe DEP-11 64x64 Icons
+
+12% [Working]
+             
+Ign:164 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages
+
+12% [Working]
+             
+Ign:165 http://in.archive.ubuntu.com/ubuntu xenial/multiverse i386 Packages
+
+             
+Ign:58 http://in.archive.ubuntu.com/ubuntu xenial/multiverse all Packages
+
+             
+Ign:59 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en_IN
+
+12% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:166 http://in.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en
+
+                                             
+Ign:167 http://in.archive.ubuntu.com/ubuntu xenial/multiverse amd64 DEP-11 Metadata
+
+                                             
+Ign:168 http://in.archive.ubuntu.com/ubuntu xenial/multiverse DEP-11 64x64 Icons
+
+                                             
+Ign:169 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+
+                                             
+Ign:170 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+
+                                             
+Ign:70 http://in.archive.ubuntu.com/ubuntu xenial-updates/main all Packages
+
+                                             
+12% [Working]
+             
+Ign:71 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en_IN
+
+             
+Ign:171 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+
+             
+Ign:172 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+
+             
+Ign:173 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+
+12% [Working]
+             
+Ign:174 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+
+12% [Working]
+             
+Ign:175 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+
+             
+Ign:86 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted all Packages
+
+             
+Ign:87 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en_IN
+
+13% [Working]
+             
+Ign:176 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+
+             
+Ign:177 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+
+             
+Ign:90 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted DEP-11 64x64 Icons
+
+             
+Ign:178 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+
+             
+Ign:179 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+
+13% [Working]
+             
+Ign:93 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe all Packages
+
+             
+Ign:94 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en_IN
+
+             
+Ign:180 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en
+
+             
+Ign:181 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata
+
+             
+Ign:182 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons
+
+13% [Working]
+             
+Ign:183 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages
+
+13% [Working]
+             
+Ign:184 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages
+
+             
+Ign:107 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse all Packages
+
+13% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:108 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en_IN
+
+                                             
+Ign:185 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en
+
+                                             
+Ign:186 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata
+
+                                             
+Ign:187 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons
+
+                                             
+Ign:188 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages
+
+                                             
+13% [Working]
+             
+Ign:189 http://in.archive.ubuntu.com/ubuntu xenial-backports/main i386 Packages
+
+             
+Ign:114 http://in.archive.ubuntu.com/ubuntu xenial-backports/main all Packages
+
+             
+Ign:122 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en_IN
+
+             
+Ign:190 http://in.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en
+
+             
+Ign:191 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata
+
+13% [Working]
+             
+Ign:192 http://in.archive.ubuntu.com/ubuntu xenial-backports/main DEP-11 64x64 Icons
+
+13% [Working]
+             
+Err:126 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 Packages
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+             
+Ign:127 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted i386 Packages
+
+15% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:128 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted all Packages
+
+                                             
+Ign:129 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en_IN
+
+                                             
+Ign:130 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted Translation-en
+
+                                             
+Ign:193 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted amd64 DEP-11 Metadata
+
+                                             
+Ign:134 http://in.archive.ubuntu.com/ubuntu xenial-backports/restricted DEP-11 64x64 Icons
+
+                                             
+Ign:194 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages
+
+                                             
+Ign:195 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages
+
+                                             
+16% [Working]
+             
+Ign:137 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe all Packages
+
+             
+Ign:138 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en_IN
+
+             
+Err:150 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 Packages
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+17% [Working]
+             
+Ign:151 http://in.archive.ubuntu.com/ubuntu xenial/main i386 Packages
+
+17% [Working]
+             
+Ign:152 http://in.archive.ubuntu.com/ubuntu xenial/main Translation-en
+
+             
+Ign:153 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 DEP-11 Metadata
+
+17% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:154 http://in.archive.ubuntu.com/ubuntu xenial/main DEP-11 64x64 Icons
+
+                                             
+Ign:155 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 Packages
+
+                                             
+17% [Working]
+             
+Ign:156 http://in.archive.ubuntu.com/ubuntu xenial/restricted i386 Packages
+
+17% [Working]
+             
+Ign:157 http://in.archive.ubuntu.com/ubuntu xenial/restricted Translation-en
+
+17% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:158 http://in.archive.ubuntu.com/ubuntu xenial/restricted amd64 DEP-11 Metadata
+
+                                             
+Ign:159 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages
+
+                                             
+18% [Working]
+             
+Ign:160 http://in.archive.ubuntu.com/ubuntu xenial/universe i386 Packages
+
+             
+Err:169 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages
+  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+
+18% [Connecting to 192.168.0.2 (192.168.0.2)]
+                                             
+Ign:170 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages
+
+                                             
+Ign:171 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en
+
+                                             
+Ign:172 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata
+
+                                             
+Ign:173 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons
+
+                                             
+Ign:174 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 Packages
+
+                                             
+Ign:175 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted i386 Packages
+
+                                             
+19% [Working]
+             
+Ign:176 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted Translation-en
+
+19% [Working]
+             
+Ign:177 http://in.archive.ubuntu.com/ubuntu xenial-updates/restricted amd64 DEP-11 Metadata
+
+19% [Working]
+             
+Ign:178 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages
+
+19% [Working]
+             
+Ign:179 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages
+
+19% [Working]
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 33%
+
+Reading package lists... 33%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 60%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+W: The repository 'http://dl.google.com/linux/chrome/deb stable Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://in.archive.ubuntu.com/ubuntu xenial Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://in.archive.ubuntu.com/ubuntu xenial-updates Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://security.ubuntu.com/ubuntu xenial-security Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: The repository 'http://in.archive.ubuntu.com/ubuntu xenial-backports Release' does not have a Release file.
+N: Data from such a repository can't be authenticated and is therefore potentially dangerous to use.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: Failed to fetch https://packages.microsoft.com/repos/vscode/dists/stable/InRelease  FailReason: ConnectionRefused
+E: Failed to fetch http://security.ubuntu.com/ubuntu/dists/xenial-security/main/binary-amd64/Packages  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+E: Failed to fetch http://dl.google.com/linux/chrome/deb/dists/stable/main/binary-amd64/Packages  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/xenial-backports/restricted/binary-amd64/Packages  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/xenial/main/binary-amd64/Packages  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+E: Failed to fetch http://in.archive.ubuntu.com/ubuntu/dists/xenial-updates/main/binary-amd64/Packages  Cannot initiate the connection to 192.168.0.2:3128 (192.168.0.2). - connect (101: Network is unreachable)
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get updateinstall apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+0 upgraded, 9 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1,541 kB of archives.
+After this operation, 6,373 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libapr1 amd64 1.5.2-3 [86.0 kB]
+
+0% [1 libapr1 2,477 B/86.0 kB 3%]
+                                 
+7% [Working]
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1 amd64 1.5.4-1build1 [77.1 kB]
+
+7% [2 libaprutil1 2,477 B/77.1 kB 3%]
+                                     
+13% [Working]
+             
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-dbd-sqlite3 amd64 1.5.4-1build1 [10.6 kB]
+
+13% [3 libaprutil1-dbd-sqlite3 5,153 B/10.6 kB 49%]
+                                                   
+16% [Waiting for headers]
+                         
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-ldap amd64 1.5.4-1build1 [8,720 B]
+
+16% [4 libaprutil1-ldap 4,278 B/8,720 B 49%]
+                                            
+18% [Working]
+             
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.1-0 amd64 5.1.5-8ubuntu1 [102 kB]
+
+18% [5 liblua5.1-0 2,557 B/102 kB 2%]
+23% [5 liblua5.1-0 95.2 kB/102 kB 93%]
+                                      
+26% [Waiting for headers]
+                         
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-bin amd64 2.4.18-2ubuntu3.10 [926 kB]
+
+26% [6 apache2-bin 1,448 B/926 kB 0%]
+49% [6 apache2-bin 446 kB/926 kB 48%]
+                                     
+76% [Waiting for headers]
+                         
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-utils amd64 2.4.18-2ubuntu3.10 [81.7 kB]
+
+77% [7 apache2-utils 10.7 kB/81.7 kB 13%]
+                                         
+83% [Working]
+             
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-data all 2.4.18-2ubuntu3.10 [162 kB]
+
+83% [8 apache2-data 6,761 B/162 kB 4%]
+                                      
+93% [Waiting for headers]
+                         
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2 amd64 2.4.18-2ubuntu3.10 [86.6 kB]
+
+94% [9 apache2 8,356 B/86.6 kB 10%]
+                                   
+100% [Working]
+              
+Fetched 1,541 kB in 1s (870 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 231600 files and directories currently installed.)
+Preparing to unpack .../libapr1_1.5.2-3_amd64.deb ...
+Unpacking libapr1:amd64 (1.5.2-3) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../libaprutil1_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../libaprutil1-dbd-sqlite3_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../libaprutil1-ldap_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package liblua5.1-0:amd64.
+Preparing to unpack .../liblua5.1-0_5.1.5-8ubuntu1_amd64.deb ...
+Unpacking liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../apache2-bin_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2-bin (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../apache2-utils_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2-utils (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../apache2-data_2.4.18-2ubuntu3.10_all.deb ...
+Unpacking apache2-data (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../apache2_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2 (2.4.18-2ubuntu3.10) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Rules updated for profile 'Nginx HTTP'
+
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+ureadahead will be reprofiled on next reboot
+Setting up libapr1:amd64 (1.5.2-3) ...
+Setting up libaprutil1:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Setting up liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Setting up apache2-bin (2.4.18-2ubuntu3.10) ...
+Setting up apache2-utils (2.4.18-2ubuntu3.10) ...
+Setting up apache2-data (2.4.18-2ubuntu3.10) ...
+Setting up apache2 (2.4.18-2ubuntu3.10) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Rules updated for profile 'Nginx HTTP'
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install apache2[9Pupdateinstall apache2[3PperlsystemcdSynaptic[5PAPTSynaptic
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package Synaptic
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install Synaptic[1Papache2[9Pupdateinstall apache2[3PperlsystemcdSynaptic[5PAPT[4Pupgradeinstall APT
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package APT
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install APTSynaptic[1Pynapticsynaptic
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+synaptic is already the newest version (0.83).
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo autoremove synaptri[K[Kic
+sudo: autoremove: command not found
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo autoremove synaptic[C[1@ [1@a[1@p[1@t[1@-[1@g[1@t[1@e[1P[1P[1@e[1@t
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages will be REMOVED:
+  libept1.5.0 snapd-login-service synaptic
+0 upgraded, 0 newly installed, 3 to remove and 1 not upgraded.
+After this operation, 7,435 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 232277 files and directories currently installed.)
+Removing synaptic (0.83) ...
+Removing libept1.5.0:amd64 (1.1+nmu3) ...
+Removing snapd-login-service (1.33-0ubuntu0.16.04.1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1.1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for dbus (1.10.6-1ubuntu3.3) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get autoremove synaptic[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@pt-get install[C[C[C[C[C[C[C[C[C[5PAPTSynaptic[K[K[K[K[K[K[K[Ksy[K[Kyum
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  debugedit librpm3 librpmbuild3 librpmio3 librpmsign3 libsqlite0
+  python-libxml2 python-lzma python-pycurl python-rpm python-sqlite
+  python-sqlitecachec python-urlgrabber rpm rpm-common rpm2cpio
+Suggested packages:
+  rpm-i18n libcurl4-gnutls-dev python-pycurl-dbg python-pycurl-doc
+  python-sqlite-dbg alien elfutils rpmlint rpm2html
+The following NEW packages will be installed:
+  debugedit librpm3 librpmbuild3 librpmio3 librpmsign3 libsqlite0
+  python-libxml2 python-lzma python-pycurl python-rpm python-sqlite
+  python-sqlitecachec python-urlgrabber rpm rpm-common rpm2cpio yum
+0 upgraded, 17 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1,412 kB of archives.
+After this operation, 7,449 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librpmio3 amd64 4.12.0.1+dfsg1-3build3 [68.7 kB]
+
+0% [1 librpmio3 2,558 B/68.7 kB 4%]
+                                   
+5% [Working]
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 debugedit amd64 4.12.0.1+dfsg1-3build3 [15.5 kB]
+
+5% [2 debugedit 2,560 B/15.5 kB 16%]
+                                    
+7% [Working]
+            
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librpm3 amd64 4.12.0.1+dfsg1-3build3 [155 kB]
+
+7% [3 librpm3 2,558 B/155 kB 2%]
+                                
+17% [Working]
+             
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librpmbuild3 amd64 4.12.0.1+dfsg1-3build3 [58.0 kB]
+
+17% [4 librpmbuild3 2,560 B/58.0 kB 4%]
+                                       
+22% [Waiting for headers]
+                         
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librpmsign3 amd64 4.12.0.1+dfsg1-3build3 [8,192 B]
+
+22% [5 librpmsign3 2,561 B/8,192 B 31%]
+                                       
+23% [Working]
+             
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libsqlite0 amd64 2.8.17-12fakesync1 [139 kB]
+
+23% [6 libsqlite0 1,448 B/139 kB 1%]
+                                    
+32% [Working]
+             
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-libxml2 amd64 2.9.3+dfsg1-1ubuntu0.6 [141 kB]
+
+32% [7 python-libxml2 2,558 B/141 kB 2%]
+                                        
+41% [Working]
+             
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-lzma amd64 0.5.3-3 [27.9 kB]
+
+41% [8 python-lzma 1,112 B/27.9 kB 4%]
+                                      
+44% [Working]
+             
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-sqlite amd64 1.0.1-12 [20.9 kB]
+
+44% [9 python-sqlite 1,112 B/20.9 kB 5%]
+                                        
+47% [Working]
+             
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python-pycurl amd64 7.43.0-1ubuntu1 [43.3 kB]
+
+47% [10 python-pycurl 1,112 B/43.3 kB 3%]
+                                         
+50% [Working]
+             
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python-urlgrabber all 3.9.1-4.2ubuntu1 [41.7 kB]
+
+50% [11 python-urlgrabber 2,560 B/41.7 kB 6%]
+                                             
+54% [Working]
+             
+Get:12 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 rpm-common amd64 4.12.0.1+dfsg1-3build3 [25.7 kB]
+
+54% [12 rpm-common 0 B/25.7 kB 0%]
+                                  
+56% [Working]
+             
+Get:13 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 rpm2cpio amd64 4.12.0.1+dfsg1-3build3 [7,756 B]
+
+56% [13 rpm2cpio 2,561 B/7,756 B 33%]
+                                     
+58% [Working]
+             
+Get:14 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 rpm amd64 4.12.0.1+dfsg1-3build3 [114 kB]
+
+58% [14 rpm 2,558 B/114 kB 2%]
+                              
+66% [Waiting for headers]
+                         
+Get:15 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-rpm amd64 4.12.0.1+dfsg1-3build3 [37.6 kB]
+
+66% [15 python-rpm 2,560 B/37.6 kB 7%]
+                                      
+69% [Waiting for headers]
+                         
+Get:16 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-sqlitecachec amd64 1.1.4-1 [21.4 kB]
+
+69% [16 python-sqlitecachec 2,560 B/21.4 kB 12%]
+                                                
+71% [Working]
+             
+Get:17 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 yum all 3.4.3-3 [486 kB]
+
+71% [17 yum 2,558 B/486 kB 1%]
+                              
+100% [Working]
+              
+Fetched 1,412 kB in 4s (340 kB/s)
+Selecting previously unselected package librpmio3.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 231992 files and directories currently installed.)
+Preparing to unpack .../librpmio3_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking librpmio3 (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package debugedit.
+Preparing to unpack .../debugedit_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking debugedit (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package librpm3.
+Preparing to unpack .../librpm3_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking librpm3 (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package librpmbuild3.
+Preparing to unpack .../librpmbuild3_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking librpmbuild3 (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package librpmsign3.
+Preparing to unpack .../librpmsign3_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking librpmsign3 (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package libsqlite0.
+Preparing to unpack .../libsqlite0_2.8.17-12fakesync1_amd64.deb ...
+Unpacking libsqlite0 (2.8.17-12fakesync1) ...
+Selecting previously unselected package python-libxml2.
+Preparing to unpack .../python-libxml2_2.9.3+dfsg1-1ubuntu0.6_amd64.deb ...
+Unpacking python-libxml2 (2.9.3+dfsg1-1ubuntu0.6) ...
+Selecting previously unselected package python-lzma.
+Preparing to unpack .../python-lzma_0.5.3-3_amd64.deb ...
+Unpacking python-lzma (0.5.3-3) ...
+Selecting previously unselected package python-sqlite.
+Preparing to unpack .../python-sqlite_1.0.1-12_amd64.deb ...
+Unpacking python-sqlite (1.0.1-12) ...
+Selecting previously unselected package python-pycurl.
+Preparing to unpack .../python-pycurl_7.43.0-1ubuntu1_amd64.deb ...
+Unpacking python-pycurl (7.43.0-1ubuntu1) ...
+Selecting previously unselected package python-urlgrabber.
+Preparing to unpack .../python-urlgrabber_3.9.1-4.2ubuntu1_all.deb ...
+Unpacking python-urlgrabber (3.9.1-4.2ubuntu1) ...
+Selecting previously unselected package rpm-common.
+Preparing to unpack .../rpm-common_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking rpm-common (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package rpm2cpio.
+Preparing to unpack .../rpm2cpio_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking rpm2cpio (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package rpm.
+Preparing to unpack .../rpm_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking rpm (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package python-rpm.
+Preparing to unpack .../python-rpm_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking python-rpm (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package python-sqlitecachec.
+Preparing to unpack .../python-sqlitecachec_1.1.4-1_amd64.deb ...
+Unpacking python-sqlitecachec (1.1.4-1) ...
+Selecting previously unselected package yum.
+Preparing to unpack .../archives/yum_3.4.3-3_all.deb ...
+Unpacking yum (3.4.3-3) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up librpmio3 (4.12.0.1+dfsg1-3build3) ...
+Setting up debugedit (4.12.0.1+dfsg1-3build3) ...
+Setting up librpm3 (4.12.0.1+dfsg1-3build3) ...
+Setting up librpmbuild3 (4.12.0.1+dfsg1-3build3) ...
+Setting up librpmsign3 (4.12.0.1+dfsg1-3build3) ...
+Setting up libsqlite0 (2.8.17-12fakesync1) ...
+Setting up python-libxml2 (2.9.3+dfsg1-1ubuntu0.6) ...
+Setting up python-lzma (0.5.3-3) ...
+Setting up python-sqlite (1.0.1-12) ...
+Setting up python-pycurl (7.43.0-1ubuntu1) ...
+Setting up python-urlgrabber (3.9.1-4.2ubuntu1) ...
+Setting up rpm-common (4.12.0.1+dfsg1-3build3) ...
+Setting up rpm2cpio (4.12.0.1+dfsg1-3build3) ...
+Setting up rpm (4.12.0.1+dfsg1-3build3) ...
+Setting up python-rpm (4.12.0.1+dfsg1-3build3) ...
+Setting up python-sqlitecachec (1.1.4-1) ...
+Setting up yum (3.4.3-3) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install yum[K[K[K[K--only--[Kupgrade [K nono
+E: Invalid operation install--only-upgrade
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install--only-upgrade nono[1Po[Kaono
+E: Invalid operation install--only-upgrade
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install--only-upgrade nano
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudp [K[Ko apt-get update nano
+E: The update command takes no arguments
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get update nano[K[K[K[Kperl
+E: The update command takes no arguments
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get update perl[1P perl[1P perl[1P perl[1P perlg perlr perla perld perle perl[C perl
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+perl is already the newest version (5.22.1-9ubuntu0.6).
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following packages have been kept back:
+  nam
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get upgrade  perl[2Pdate[C[C[C[C[Cnano[15@install--only-upgrad[C[C[C[C[C[Conoano[15Pupdat[C[C[C[C[C[Cperl[2@grade [C[C[C[C[C[K[K[K[K[Knano
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+nano is already the newest version (2.5.3-2ubuntu2).
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following packages have been kept back:
+  nam
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo [K[K[K[K[Ksudo apt-get upgrade nano perl[K[K[K[K[Kubuntu
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package ubuntu
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 11:53:22 AM IST
+ 5,153 B/10.6 kB 49%]
+                                                   
+16% [Waiting for headers]
+                         
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-ldap amd64 1.5.4-1build1 [8,720 B]
+
+16% [4 libaprutil1-ldap 4,278 B/8,720 B 49%]
+                                            
+18% [Working]
+             
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.1-0 amd64 5.1.5-8ubuntu1 [102 kB]
+
+18% [5 liblua5.1-0 2,557 B/102 kB 2%]
+23% [5 liblua5.1-0 95.2 kB/102 kB 93%]
+                                      
+26% [Waiting for headers]
+                         
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-bin amd64 2.4.18-2ubuntu3.10 [926 kB]
+
+26% [6 apache2-bin 1,448 B/926 kB 0%]
+49% [6 apache2-bin 446 kB/926 kB 48%]
+                                     
+76% [Waiting for headers]
+                         
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-utils amd64 2.4.18-2ubuntu3.10 [81.7 kB]
+
+77% [7 apache2-utils 10.7 kB/81.7 kB 13%]
+                                         
+83% [Working]
+             
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-data all 2.4.18-2ubuntu3.10 [162 kB]
+
+83% [8 apache2-data 6,761 B/162 kB 4%]
+                                      
+93% [Waiting for headers]
+                         
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2 amd64 2.4.18-2ubuntu3.10 [86.6 kB]
+
+94% [9 apache2 8,356 B/86.6 kB 10%]
+                                   
+100% [Working]
+              
+Fetched 1,541 kB in 1s (870 kB/s)
+Selecting previously unselected package libapr1:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 231600 files and directories currently installed.)
+Preparing to unpack .../libapr1_1.5.2-3_amd64.deb ...
+Unpacking libapr1:amd64 (1.5.2-3) ...
+Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../libaprutil1_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../libaprutil1-dbd-sqlite3_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../libaprutil1-ldap_1.5.4-1build1_amd64.deb ...
+Unpacking libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Selecting previously unselected package liblua5.1-0:amd64.
+Preparing to unpack .../liblua5.1-0_5.1.5-8ubuntu1_amd64.deb ...
+Unpacking liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Selecting previously unselected package apache2-bin.
+Preparing to unpack .../apache2-bin_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2-bin (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2-utils.
+Preparing to unpack .../apache2-utils_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2-utils (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2-data.
+Preparing to unpack .../apache2-data_2.4.18-2ubuntu3.10_all.deb ...
+Unpacking apache2-data (2.4.18-2ubuntu3.10) ...
+Selecting previously unselected package apache2.
+Preparing to unpack .../apache2_2.4.18-2ubuntu3.10_amd64.deb ...
+Unpacking apache2 (2.4.18-2ubuntu3.10) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Rules updated for profile 'Nginx HTTP'
+
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+ureadahead will be reprofiled on next reboot
+Setting up libapr1:amd64 (1.5.2-3) ...
+Setting up libaprutil1:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+Setting up libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+Setting up liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+Setting up apache2-bin (2.4.18-2ubuntu3.10) ...
+Setting up apache2-utils (2.4.18-2ubuntu3.10) ...
+Setting up apache2-data (2.4.18-2ubuntu3.10) ...
+Setting up apache2 (2.4.18-2ubuntu3.10) ...
+Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for systemd (229-4ubuntu21.21) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Rules updated for profile 'Nginx HTTP'
+
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install apache2[9Pupdateinstall apache2[3PperlsystemcdSynaptic[5PAPTSynaptic
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package Synaptic
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install Synaptic[1Papache2[9Pupdateinstall apache2[3PperlsystemcdSynaptic[5PAPT[4Pupgradeinstall APT
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package APT
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install APTSynaptic[1Pynapticsynaptic
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+synaptic is already the newest version (0.83).
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo autoremove synaptri[K[Kic
+sudo: autoremove: command not found
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo autoremove synaptic[C[1@ [1@a[1@p[1@t[1@-[1@g[1@t[1@e[1P[1P[1@e[1@t
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages will be REMOVED:
+  libept1.5.0 snapd-login-service synaptic
+0 upgraded, 0 newly installed, 3 to remove and 1 not upgraded.
+After this operation, 7,435 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 232277 files and directories currently installed.)
+Removing synaptic (0.83) ...
+Removing libept1.5.0:amd64 (1.1+nmu3) ...
+Removing snapd-login-service (1.33-0ubuntu0.16.04.1) ...
+Processing triggers for hicolor-icon-theme (0.15-0ubuntu1.1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.2) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20180209-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for dbus (1.10.6-1ubuntu3.3) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get autoremove synaptic[8P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@pt-get install[C[C[C[C[C[C[C[C[C[5PAPTSynaptic[K[K[K[K[K[K[K[Ksy[K[Kyum
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following additional packages will be installed:
+  debugedit librpm3 librpmbuild3 librpmio3 librpmsign3 libsqlite0
+  python-libxml2 python-lzma python-pycurl python-rpm python-sqlite
+  python-sqlitecachec python-urlgrabber rpm rpm-common rpm2cpio
+Suggested packages:
+  rpm-i18n libcurl4-gnutls-dev python-pycurl-dbg python-pycurl-doc
+  python-sqlite-dbg alien elfutils rpmlint rpm2html
+The following NEW packages will be installed:
+  debugedit librpm3 librpmbuild3 librpmio3 librpmsign3 libsqlite0
+  python-libxml2 python-lzma python-pycurl python-rpm python-sqlite
+  python-sqlitecachec python-urlgrabber rpm rpm-common rpm2cpio yum
+0 upgraded, 17 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1,412 kB of archives.
+After this operation, 7,449 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librpmio3 amd64 4.12.0.1+dfsg1-3build3 [68.7 kB]
+
+0% [1 librpmio3 2,558 B/68.7 kB 4%]
+                                   
+5% [Working]
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 debugedit amd64 4.12.0.1+dfsg1-3build3 [15.5 kB]
+
+5% [2 debugedit 2,560 B/15.5 kB 16%]
+                                    
+7% [Working]
+            
+Get:3 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librpm3 amd64 4.12.0.1+dfsg1-3build3 [155 kB]
+
+7% [3 librpm3 2,558 B/155 kB 2%]
+                                
+17% [Working]
+             
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librpmbuild3 amd64 4.12.0.1+dfsg1-3build3 [58.0 kB]
+
+17% [4 librpmbuild3 2,560 B/58.0 kB 4%]
+                                       
+22% [Waiting for headers]
+                         
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 librpmsign3 amd64 4.12.0.1+dfsg1-3build3 [8,192 B]
+
+22% [5 librpmsign3 2,561 B/8,192 B 31%]
+                                       
+23% [Working]
+             
+Get:6 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 libsqlite0 amd64 2.8.17-12fakesync1 [139 kB]
+
+23% [6 libsqlite0 1,448 B/139 kB 1%]
+                                    
+32% [Working]
+             
+Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-libxml2 amd64 2.9.3+dfsg1-1ubuntu0.6 [141 kB]
+
+32% [7 python-libxml2 2,558 B/141 kB 2%]
+                                        
+41% [Working]
+             
+Get:8 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-lzma amd64 0.5.3-3 [27.9 kB]
+
+41% [8 python-lzma 1,112 B/27.9 kB 4%]
+                                      
+44% [Working]
+             
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-sqlite amd64 1.0.1-12 [20.9 kB]
+
+44% [9 python-sqlite 1,112 B/20.9 kB 5%]
+                                        
+47% [Working]
+             
+Get:10 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python-pycurl amd64 7.43.0-1ubuntu1 [43.3 kB]
+
+47% [10 python-pycurl 1,112 B/43.3 kB 3%]
+                                         
+50% [Working]
+             
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 python-urlgrabber all 3.9.1-4.2ubuntu1 [41.7 kB]
+
+50% [11 python-urlgrabber 2,560 B/41.7 kB 6%]
+                                             
+54% [Working]
+             
+Get:12 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 rpm-common amd64 4.12.0.1+dfsg1-3build3 [25.7 kB]
+
+54% [12 rpm-common 0 B/25.7 kB 0%]
+                                  
+56% [Working]
+             
+Get:13 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 rpm2cpio amd64 4.12.0.1+dfsg1-3build3 [7,756 B]
+
+56% [13 rpm2cpio 2,561 B/7,756 B 33%]
+                                     
+58% [Working]
+             
+Get:14 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 rpm amd64 4.12.0.1+dfsg1-3build3 [114 kB]
+
+58% [14 rpm 2,558 B/114 kB 2%]
+                              
+66% [Waiting for headers]
+                         
+Get:15 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-rpm amd64 4.12.0.1+dfsg1-3build3 [37.6 kB]
+
+66% [15 python-rpm 2,560 B/37.6 kB 7%]
+                                      
+69% [Waiting for headers]
+                         
+Get:16 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 python-sqlitecachec amd64 1.1.4-1 [21.4 kB]
+
+69% [16 python-sqlitecachec 2,560 B/21.4 kB 12%]
+                                                
+71% [Working]
+             
+Get:17 http://in.archive.ubuntu.com/ubuntu xenial/universe amd64 yum all 3.4.3-3 [486 kB]
+
+71% [17 yum 2,558 B/486 kB 1%]
+                              
+100% [Working]
+              
+Fetched 1,412 kB in 4s (340 kB/s)
+Selecting previously unselected package librpmio3.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 231992 files and directories currently installed.)
+Preparing to unpack .../librpmio3_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking librpmio3 (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package debugedit.
+Preparing to unpack .../debugedit_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking debugedit (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package librpm3.
+Preparing to unpack .../librpm3_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking librpm3 (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package librpmbuild3.
+Preparing to unpack .../librpmbuild3_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking librpmbuild3 (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package librpmsign3.
+Preparing to unpack .../librpmsign3_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking librpmsign3 (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package libsqlite0.
+Preparing to unpack .../libsqlite0_2.8.17-12fakesync1_amd64.deb ...
+Unpacking libsqlite0 (2.8.17-12fakesync1) ...
+Selecting previously unselected package python-libxml2.
+Preparing to unpack .../python-libxml2_2.9.3+dfsg1-1ubuntu0.6_amd64.deb ...
+Unpacking python-libxml2 (2.9.3+dfsg1-1ubuntu0.6) ...
+Selecting previously unselected package python-lzma.
+Preparing to unpack .../python-lzma_0.5.3-3_amd64.deb ...
+Unpacking python-lzma (0.5.3-3) ...
+Selecting previously unselected package python-sqlite.
+Preparing to unpack .../python-sqlite_1.0.1-12_amd64.deb ...
+Unpacking python-sqlite (1.0.1-12) ...
+Selecting previously unselected package python-pycurl.
+Preparing to unpack .../python-pycurl_7.43.0-1ubuntu1_amd64.deb ...
+Unpacking python-pycurl (7.43.0-1ubuntu1) ...
+Selecting previously unselected package python-urlgrabber.
+Preparing to unpack .../python-urlgrabber_3.9.1-4.2ubuntu1_all.deb ...
+Unpacking python-urlgrabber (3.9.1-4.2ubuntu1) ...
+Selecting previously unselected package rpm-common.
+Preparing to unpack .../rpm-common_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking rpm-common (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package rpm2cpio.
+Preparing to unpack .../rpm2cpio_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking rpm2cpio (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package rpm.
+Preparing to unpack .../rpm_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking rpm (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package python-rpm.
+Preparing to unpack .../python-rpm_4.12.0.1+dfsg1-3build3_amd64.deb ...
+Unpacking python-rpm (4.12.0.1+dfsg1-3build3) ...
+Selecting previously unselected package python-sqlitecachec.
+Preparing to unpack .../python-sqlitecachec_1.1.4-1_amd64.deb ...
+Unpacking python-sqlitecachec (1.1.4-1) ...
+Selecting previously unselected package yum.
+Preparing to unpack .../archives/yum_3.4.3-3_all.deb ...
+Unpacking yum (3.4.3-3) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up librpmio3 (4.12.0.1+dfsg1-3build3) ...
+Setting up debugedit (4.12.0.1+dfsg1-3build3) ...
+Setting up librpm3 (4.12.0.1+dfsg1-3build3) ...
+Setting up librpmbuild3 (4.12.0.1+dfsg1-3build3) ...
+Setting up librpmsign3 (4.12.0.1+dfsg1-3build3) ...
+Setting up libsqlite0 (2.8.17-12fakesync1) ...
+Setting up python-libxml2 (2.9.3+dfsg1-1ubuntu0.6) ...
+Setting up python-lzma (0.5.3-3) ...
+Setting up python-sqlite (1.0.1-12) ...
+Setting up python-pycurl (7.43.0-1ubuntu1) ...
+Setting up python-urlgrabber (3.9.1-4.2ubuntu1) ...
+Setting up rpm-common (4.12.0.1+dfsg1-3build3) ...
+Setting up rpm2cpio (4.12.0.1+dfsg1-3build3) ...
+Setting up rpm (4.12.0.1+dfsg1-3build3) ...
+Setting up python-rpm (4.12.0.1+dfsg1-3build3) ...
+Setting up python-sqlitecachec (1.1.4-1) ...
+Setting up yum (3.4.3-3) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install yum[K[K[K[K--only--[Kupgrade [K nono
+E: Invalid operation install--only-upgrade
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install--only-upgrade nono[1Po[Kaono
+E: Invalid operation install--only-upgrade
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install--only-upgrade nano
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudp [K[Ko apt-get update nano
+E: The update command takes no arguments
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get update nano[K[K[K[Kperl
+E: The update command takes no arguments
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get update perl[1P perl[1P perl[1P perl[1P perlg perlr perla perld perle perl[C perl
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+perl is already the newest version (5.22.1-9ubuntu0.6).
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following packages have been kept back:
+  nam
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get upgrade  perl[2Pdate[C[C[C[C[Cnano[15@install--only-upgrad[C[C[C[C[C[Conoano[15Pupdat[C[C[C[C[C[Cperl[2@grade [C[C[C[C[C[K[K[K[K[Knano
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+nano is already the newest version (2.5.3-2ubuntu2).
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following packages have been kept back:
+  nam
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo [K[K[K[K[Ksudo apt-get upgrade nano perl[K[K[K[K[Kubuntu
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package ubuntu
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+Script done, file is packagemanagement.txt
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exiy
+No command 'exiy' found, did you mean:
+ Command 'exif' from package 'exif' (universe)
+ Command 'exim' from package 'exim4-daemon-light' (main)
+ Command 'exim' from package 'exim4-daemon-heavy' (main)
+exiy: command not found
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 11:53:26 AM IST
