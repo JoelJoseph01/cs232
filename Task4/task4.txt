@@ -13,7 +13,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Mar 25 10:10:53 2019 from 192.168.0.189
+Last login: Mon Mar 25 10:10:53 2019 from 192.168.0.189
+
 $ sc  ls
 examples.desktop  final.txt  res.txt  s4d.txt
 $ cat s final.txt
@@ -94,7 +95,8 @@ $ if
 > exit
 > ^C
 $ i w exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ if
 > ^C
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ if [Kconfig
@@ -116,7 +118,8 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:1000 
           RX bytes:76100 (76.1 KB)  TX bytes:76100 (76.1 KB)
 
-]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh[K[K[Kifconfig[Kssh cs17d29@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kssh cs17d29@192.168.0.30
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh[K[K[Kifconfig[Kssh cs17d29@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kssh cs17d29@192.168.0.30
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -130,13 +133,17 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Mar 25 10:37:48 2019 from 192.168.0.189
+Last login: Mon Mar 25 10:37:48 2019 from 192.168.0.189
+
 $ scp cec@192.168.189.    0.189:/home     /home/cec/Desktop/task/tt.tgxt   xt /homw/  e/cs17d29
-ssh: connect to host 192.168.0.189 port 22: Connection refused
+ssh: connect to host 192.168.0.189 port 22: Connection refused
+
 $ scp cec@192.168.0.189:/home/cec/ttx .txt /home/cs17d29
-ssh: connect to host 192.168.0.189 port 22: Connection refused
+ssh: connect to host 192.168.0.189 port 22: Connection refused
+
 $ scp cs17        scp     scp cexc  c@    cec@192.168.0 0.189 9  :/home                           ssh     exit
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ scp n[Kv[Kcsc[K[Ks17d29@192.168.0.30 [K: [K/home/cec/tt.txt /hpo[K[Komw[Ke/cs17d29
 .
               |
@@ -146,9 +153,11 @@ Connection to 192.168.0.30 closed.
 cs17d29@192.168.0.30's password: 
 scp: /home/cec/tt.txt: No such file or directory
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh -t cs17d29@192.168.0.30 [K-joel[K[K[K[Kjay[K[Koels4d
-ssh: Could not resolve hostname 192.168.0.30-joels4d: Temporary failure in name resolution
+ssh: Could not resolve hostname 192.168.0.30-joels4d: Temporary failure in name resolution
+
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh -t cs17d29@192.168.0.30-joels4d[C[K[K[K[K[K[K[Khwew[K[K[Kere paa[Ksswd
-ssh: Could not resolve hostname 192.168.0.30-here: Temporary failure in name resolution
+ssh: Could not resolve hostname 192.168.0.30-here: Temporary failure in name resolution
+
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh -t cs17d29@192.168.0.30-here passwd[C[C[C[C[C[C[C[1P passwd[1P passwd[1P passwd[1P passwd[1P passwd[C passwd[C[C[C[C[C[C[1Ppasswd[C[C[C[C[C[C
 .
               |
@@ -161,7 +170,8 @@ Changing password for cs17d29.
 Enter new UNIX password: 
 Retype new UNIX password: 
 passwd: password updated successfully
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed.
+
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ssh -t cs17d29@192.168.0.30 passwd-here passwd[4Pjoels4d[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krsync [K[K[K[K[K[Ksftp cs17d29@192.168.0.30
 .
               |
@@ -171,7 +181,8 @@ Connection to 192.168.0.30 closed.
 cs17d29@192.168.0.30's password: 
 Connected to 192.168.0.30.
 sftp> p[Kpo[K[Kput [K[K[Kput tt.txt
-stat tt.txt: No such file or directory
+stat tt.txt: No such file or directory
+
 sftp> pwd
 Remote working directory: /home/cs17d29
 sftp> lpwd
@@ -207,9 +218,13 @@ employee.txt	  Pictures
 examples.desktop  Public
 sftp> ;[Kput rtr[K[K[Ktt
 Uploading tt to /home/cs17d29/tt
-tt                                              0%    0     0.0KB/s   --:-- ETAtt                                            100%   63     0.1KB/s   00:00    
+
+tt                                              0%    0     0.0KB/s   --:-- ETA
+tt                                            100%   63     0.1KB/s   00:00    
 sftp> exit
-]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ scp[K[K[Ksftp cs17d29@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh -t cs17d29@192.168.0.30 passwd-here passwd[4Pjoels4d[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp cs17d29@192.168.0.30:/home/cec/tt.txt /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ scp[K[K[Ksftp cs17d29@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csh -t cs17d29@192.168.0.30 passwd-here passwd[4Pjoels4d
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp cs17d29@192.168.0.30:/home/cec/tt.txt /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[1P /home/cs17d29[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
@@ -224,7 +239,9 @@ scp: /home/cec/tt: No such file or directory
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d29@192.168.0.30's password: 
-tt                                              0%    0     0.0KB/s   --:-- ETAtt                                            100%   63     0.1KB/s   00:00    
+
+tt                                              0%    0     0.0KB/s   --:-- ETA
+tt                                            100%   63     0.1KB/s   00:00    
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ls
 aa.c              file.txt                                [0m[01;34mPVP-FOSS-LAB[0m
 [01;32mabc[0m               [01;34mgit[0m                                     qs3.c
@@ -264,7 +281,8 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Mar 25 11:34:07 2019 from 192.168.0.189
+Last login: Mon Mar 25 11:34:07 2019 from 192.168.0.189
+
 $ ls
 examples.desktop  final.txt  res.txt  s4d.txt  tt
 $ ^[[A^[[A^[[A            scp cs17d29@192.17 68, .0.30  :/home/cs17d29/tt /home/cec
@@ -284,15 +302,22 @@ $ ^[[A^[[A        scp cs17d29@192.168.0.30:/home. /cw e s1
 cs17d29@192.168.0.30's password: 
 /home/cec/tt: Permission denied
 $ exit
-Connection to 192.168.0.30 closed.
-]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ss[Kcp[K[K[Kssh cs17d29@192.168.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscp tt cs17d29@192.168.0.30:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d29@192.168.0.30:/home/cec/tt /home/cs17d29[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Ptt cs17d29@192.168.0.30:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d29@192.168.0.30:/home/cec/tt /home/cs17d29[1P[1P[1@s[1@2[1P[1@1[1@8[1@7[1P[1P[1@7[1@d[1@2[1@9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[Kec
+Connection to 192.168.0.30 closed.
+
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ ss[Kcp[K[K[Kssh cs17d29@192.168.0.30
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscp tt cs17d29@192.168.0.30:
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d29@192.168.0.30:/home/cec/tt /home/cs17d29
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Ptt cs17d29@192.168.0.30:
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccs17d29@192.168.0.30:/home/cec/tt /home/cs17d29[1P[1P[1@s[1@2[1P[1@1[1@8[1@7[1P[1P[1@7[1@d[1@2[1@9[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[Kec
 .
               |
 .  .    . .-. | .-..-. .--.--. .-.
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d29@192.168.0.30's password: 
-tt                                              0%    0     0.0KB/s   --:-- ETAtt                                            100%   63     0.1KB/s   00:00    
+
+tt                                              0%    0     0.0KB/s   --:-- ETA
+tt                                            100%   63     0.1KB/s   00:00    
 ]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sftp [K[K[K[K[Kexit[K[K[K[Kexit
 exit
 
