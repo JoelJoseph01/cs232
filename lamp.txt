@@ -1,0 +1,460 @@
+Script started on Monday 29 April 2019 10:24:02 AM IST
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ exitsudo systemctl status apache2[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Ktart apache2
+[sudo] password for cec: 
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo systemctl start apache2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo systemctl status apache2[3Pervice apache2 startystemctl restart apache2[4Pervice apache2 startystemctl status apache2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Ksudo systemctl status apache2[C
+[?1h=[0;1;32m●[0m apache2.service - LSB: Apache2 web server[m
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)[m
+  Drop-In: /lib/systemd/system/apache2.service.d[m
+           └─apache2-systemd.conf[m
+   Active: [0;1;32mactive (running)[0m since Mon 2019-04-29 10:24:25 IST; 59s ago[m
+     Docs: man:systemd-sysv-generator(8)[m
+  Process: 3972 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCE[m
+   CGroup: /system.slice/apache2.service[m
+           ├─3987 /usr/sbin/apache2 -k start[m
+           ├─3990 /usr/sbin/apache2 -k start[m
+           ├─3991 /usr/sbin/apache2 -k start[m
+           ├─3992 /usr/sbin/apache2 -k start[m
+           ├─3993 /usr/sbin/apache2 -k start[m
+           └─3994 /usr/sbin/apache2 -k start[m
+[m
+Apr 29 10:24:24 cec-H110M systemd[1]: Starting LSB: Apache2 web server...[m
+Apr 29 10:24:24 cec-H110M apache2[3972]:  * Starting Apache httpd web server apa[m
+Apr 29 10:24:24 cec-H110M apache2[3972]: AH00558: apache2: Could not reliably de[m
+Apr 29 10:24:25 cec-H110M apache2[3972]:  *[m
+Apr 29 10:24:25 cec-H110M systemd[1]: Started LSB: Apache2 web server.[m
+[7mlines 1-20/20 (END)[27m[K[K[?1l>
+[1]+  Stopped                 sudo systemctl status apache2
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo apt-get install mariadb-server mariadb-client
+[sudo] password for cec: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+mariadb-server is already the newest version (10.0.38-0ubuntu0.16.04.1).
+The following NEW packages will be installed:
+  mariadb-client
+0 upgraded, 1 newly installed, 0 to remove and 18 not upgraded.
+Need to get 13.0 kB of archives.
+After this operation, 62.5 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 mariadb-client all 10.0.38-0ubuntu0.16.04.1 [13.0 kB]
+80% [1 mariadb-client 13.0 kB/13.0 kB 100%]                                           100% [Working]              Fetched 13.0 kB in 0s (336 kB/s)
+Selecting previously unselected package mariadb-client.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 235734 files and directories currently installed.)
+Preparing to unpack .../mariadb-client_10.0.38-0ubuntu0.16.04.1_all.deb ...
+Unpacking mariadb-client (10.0.38-0ubuntu0.16.04.1) ...
+Setting up mariadb-client (10.0.38-0ubuntu0.16.04.1) ...
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ https://www.google.com/search?client=ubuntu&hs=NE2&channel=fs&e i=CpDGXLvePIqCvQTE_7SIDQ&q=functionalities+of+kernel&oq=functionalities+of+kerne l&gs_l=psy-ab.3..0j0i22i30l3.2836.3215..3420...0.0..0.108.376.3j1......0....1..g ws-wiz.......0i71.yrFEieynrak[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo mysql_secure_installation
+
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+      SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
+
+In order to log into MariaDB to secure it, we'll need the current
+password for the root user.  If you've just installed MariaDB, and
+you haven't set the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+You already have a root password set, so you can safely answer 'n'.
+
+Change the root password? [Y/n] n
+ ... skipping.
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] n y
+ ... Success!
+
+Normally, root should only be allowed to connect from 'localhost'.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? [Y/n] y
+ ... Success!
+
+By default, MariaDB comes with a database named 'test' that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.
+
+Remove test database and access to it? [Y/n] y
+ - Dropping test database...
+ ... Success!
+ - Removing privileges on test database...
+ ... Success!
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? [Y/n] y
+ ... Success!
+
+Cleaning up...
+
+All done!  If you've completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks for using MariaDB!
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo mysql -u root -p
+Enter password: 
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+(B[m(B[0;1mYour MariaDB connection id is 38
+Server version: 10.0.38-MariaDB-0ubuntu0.16.04.1 Ubuntu 16.04
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMariaDB [(none)]> 
+[2]+  Stopped                 sudo mysql -u root -p
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo apt-get install software-properties-common
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+software-properties-common is already the newest version (0.96.20.8).
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo add-apt-repository ppa:ondrej/php
+ Co-installable PHP versions: PHP 5.6, PHP 7.x and most requested extensions are included. Only Supported Versions of PHP (http://php.net/supported-versions.php) for Supported Ubuntu Releases (https://wiki.ubuntu.com/Releases) are provided. Don't ask for end-of-life PHP versions or Ubuntu release, they won't be provided.
+
+Debian oldstable and stable packages are provided as well: https://deb.sury.org/#debian-dpa
+
+You can get more information about the packages at https://deb.sury.org
+
+BUGS&FEATURES: This PPA now has a issue tracker:
+https://deb.sury.org/#bug-reporting
+
+CAVEATS:
+1. If you are using php-gearman, you need to add ppa:ondrej/pkg-gearman
+2. If you are using apache2, you are advised to add ppa:ondrej/apache2
+3. If you are using nginx, you are advise to add ppa:ondrej/nginx-mainline
+   or ppa:ondrej/nginx
+
+PLEASE READ: If you like my work and want to give me a little motivation, please consider donating regularly: https://donate.sury.org/
+
+WARNING: add-apt-repository is broken with non-UTF-8 locales, see 
+https://github.com/oerdnj/deb.sury.org/issues/56 for workaround:
+
+# LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+ More info: https://launchpad.net/~ondrej/+archive/ubuntu/php
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+gpg: keyring `/tmp/tmpv1yvyofl/secring.gpg' created
+gpg: keyring `/tmp/tmpv1yvyofl/pubring.gpg' created
+gpg: requesting key E5267A6C from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmpv1yvyofl/trustdb.gpg: trustdb created
+gpg: key E5267A6C: public key "Launchpad PPA for Ondřej Surý" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php 7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-m ysql php7.2-cli php7.2-zip php7.2-curl
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 4%Reading package lists... 4%Reading package lists... 8%Reading package lists... 8%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 33%Reading package lists... 33%Reading package lists... 52%Reading package lists... 56%Reading package lists... 56%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 74%Reading package lists... 74%Reading package lists... 77%Reading package lists... 77%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 93%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package php7.2
+E: Couldn't find any package by glob 'php7.2'
+E: Couldn't find any package by regex 'php7.2'
+E: Unable to locate package libapache2-mod-php7.2
+E: Couldn't find any package by glob 'libapache2-mod-php7.2'
+E: Couldn't find any package by regex 'libapache2-mod-php7.2'
+E: Unable to locate package php7.2-common
+E: Couldn't find any package by glob 'php7.2-common'
+E: Couldn't find any package by regex 'php7.2-common'
+E: Unable to locate package php7.2-mbstring
+E: Couldn't find any package by glob 'php7.2-mbstring'
+E: Couldn't find any package by regex 'php7.2-mbstring'
+E: Unable to locate package php7.2-xmlrpc
+E: Couldn't find any package by glob 'php7.2-xmlrpc'
+E: Couldn't find any package by regex 'php7.2-xmlrpc'
+E: Unable to locate package php7.2-soap
+E: Couldn't find any package by glob 'php7.2-soap'
+E: Couldn't find any package by regex 'php7.2-soap'
+E: Unable to locate package php7.2-gd
+E: Couldn't find any package by glob 'php7.2-gd'
+E: Couldn't find any package by regex 'php7.2-gd'
+E: Unable to locate package php7.2-xml
+E: Couldn't find any package by glob 'php7.2-xml'
+E: Couldn't find any package by regex 'php7.2-xml'
+E: Unable to locate package php7.2-intl
+E: Couldn't find any package by glob 'php7.2-intl'
+E: Couldn't find any package by regex 'php7.2-intl'
+E: Unable to locate package php7.2-mysql
+E: Couldn't find any package by glob 'php7.2-mysql'
+E: Couldn't find any package by regex 'php7.2-mysql'
+E: Unable to locate package php7.2-cli
+E: Couldn't find any package by glob 'php7.2-cli'
+E: Couldn't find any package by regex 'php7.2-cli'
+E: Unable to locate package php7.2-zip
+E: Couldn't find any package by glob 'php7.2-zip'
+E: Couldn't find any package by regex 'php7.2-zip'
+E: Unable to locate package php7.2-curl
+E: Couldn't find any package by glob 'php7.2-curl'
+E: Couldn't find any package by regex 'php7.2-curl'
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common php 7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-m ysql php7.2-cli php7.2-zip php7.2-curl[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-m[1@y[A[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[Cinstall php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-my[1P[A[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C- install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-m[1@y[A[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[Cg install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2-[1@m[A[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[Ce install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.2[1@-[A[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[Ct install php7.2 libapache2-mod-php7.2 php7.2-common php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7.[1@2[A[A]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C
+
+
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+E: Unable to locate package php7.2
+E: Couldn't find any package by glob 'php7.2'
+E: Couldn't find any package by regex 'php7.2'
+E: Unable to locate package libapache2-mod-php7.2
+E: Couldn't find any package by glob 'libapache2-mod-php7.2'
+E: Couldn't find any package by regex 'libapache2-mod-php7.2'
+E: Unable to locate package php7.2-common
+E: Couldn't find any package by glob 'php7.2-common'
+E: Couldn't find any package by regex 'php7.2-common'
+E: Unable to locate package php7.2-mbstring
+E: Couldn't find any package by glob 'php7.2-mbstring'
+E: Couldn't find any package by regex 'php7.2-mbstring'
+E: Unable to locate package php7.2-xmlrpc
+E: Couldn't find any package by glob 'php7.2-xmlrpc'
+E: Couldn't find any package by regex 'php7.2-xmlrpc'
+E: Unable to locate package php7.2-soap
+E: Couldn't find any package by glob 'php7.2-soap'
+E: Couldn't find any package by regex 'php7.2-soap'
+E: Unable to locate package php7.2-gd
+E: Couldn't find any package by glob 'php7.2-gd'
+E: Couldn't find any package by regex 'php7.2-gd'
+E: Unable to locate package php7.2-xml
+E: Couldn't find any package by glob 'php7.2-xml'
+E: Couldn't find any package by regex 'php7.2-xml'
+E: Unable to locate package php7.2-intl
+E: Couldn't find any package by glob 'php7.2-intl'
+E: Couldn't find any package by regex 'php7.2-intl'
+E: Unable to locate package php7.2-mysql
+E: Couldn't find any package by glob 'php7.2-mysql'
+E: Couldn't find any package by regex 'php7.2-mysql'
+E: Unable to locate package php7.2-cli
+E: Couldn't find any package by glob 'php7.2-cli'
+E: Couldn't find any package by regex 'php7.2-cli'
+E: Unable to locate package php7.2-zip
+E: Couldn't find any package by glob 'php7.2-zip'
+E: Couldn't find any package by regex 'php7.2-zip'
+E: Unable to locate package php7.2-curl
+E: Couldn't find any package by glob 'php7.2-curl'
+E: Couldn't find any package by regex 'php7.2-curl'
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo apt install php libapache2-mod-php php-mysql
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+libapache2-mod-php is already the newest version (1:7.0+35ubuntu6.1).
+php is already the newest version (1:7.0+35ubuntu6.1).
+php-mysql is already the newest version (1:7.0+35ubuntu6.1).
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo vim /etc/apache2/mods-enabled/dir.conf 
+sudo: vim: command not found
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;32H(B[0;7m[ Read 123 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3         File: /var/www/html/index.php                          [4;1H(B[0;1m[32m<?php[5d[39m(B[m$to=000;[6d(B[0;1m[33mif[39m(B[m ([37misset([39m(B[m$_POST['Submit'])){[7;9H$from=$_POST['sFrom'];[8;9H$tfrom=$_POST['tFrom'];[9;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$from){[10;9H(B[0;1m[33mcase[39m(B[m 'Second':[11;17H$tl1='Selected';[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Minute':[14;17H$tl2='Selected';[15;17H$tfrom*=60;[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Hour':[18;17H$tl3='Selected';[19;17H$tfrom*=3600;[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Day':[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[6d[9d[12d[15d[18d[21d7[3;21r8[10S[1;24r[12;17H$tl4='Selected';[13;17H$tfrom*=24*3600;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Month':[16;17H$tl6='Selected';[17;17H$tfrom*=30*24*3600;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Week':[20;17H$tl5='Selected';[21;17H$tfrom*=7*24*3600;[14d[17d[22d[K[20d[3;22r[22;1H[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Year':[14;17H$tl7='Selected';[15;17H$tfrom*=365*24*3600;[16;17H[35mbreak[39m(B[m;[17;9H}[19d$sto=$_POST['sTo'];[20;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$sto){[21;9H(B[0;1m[33mcase[39m(B[m 'Second':[13d[16d[19d[3;22r[22;1H[10S[1;24r[12;17H$sl1='Selected';[13;17H$to=$tfrom;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Minute':[16;17H$sl2='Selected';[17;17H$to=$tfrom/60;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Hour':[20;17H$sl3='Selected';[21;17H$to=$tfrom/3600;[12d[15d[18d[21d7[3;22r8[22d[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Day':[14;17H$sl4='Selected';[15;17H$to=$tfrom/(24*3600);[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Month':[18;17H$sl6='Selected';[19;17H$to=$tfrom/(30*24*3600);[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Week':[14d[17d[20d[3;22r[22;1H[10S[1;24r[12;17H$sl5='Selected';[13;17H$to=$tfrom/(7*24*3600);[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Year':[16;17H$sl7='Selected';[17;17H$to=$tfrom/(365*24*3600);[18;17H[35mbreak[39m(B[m;[19;9H}[20d$to=[37mround([39m(B[m$to,2);[21d}[13d[16d[19d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[32m?>[13d[33m<body>[39m(B[m<form method=(B[0;1m[33m"post"[39m(B[m>[14d<table align=(B[0;1m[33m"center"[39m(B[m style=(B[0;1m[33m"width: 458px; font-family: 'Times New Roman', Time[39m(B[m$[15;9H<tr style=(B[0;1m[33m"background-color: #8BD4FF"[39m(B[m>[16;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[17;17HFrom(B[0;1m[33m</td>[18;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[19;17HTo(B[0;1m[33m</td>[20;9H</tr>[21;9H<tr>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[13;25H<select name=(B[0;1m[33m"sFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12[39m(B[m$[14;25H(B[0;1m[32m<?php[15;25H(B[0m[37mecho([39m(B[m"[16d  <option $tl1>Second(B[0;1m[33m</option>[17;33H[39m(B[m<option $tl2>Minute(B[0;1m[33m</option>[18;33H[39m(B[m<option $tl3>Hour(B[0;1m[33m</option>[19;33H[39m(B[m<option $tl4>Day(B[0;1m[33m</option>[20;33H[39m(B[m<option $tl5>Week(B[0;1m[33m</option>[21;33H[39m(B[m<option $tl6>Month(B[0;1m[33m</option>[14d[39m(B[m[17d[20d7[3;21r8[21d[10S[1;24r[12;21r[12;1H[5T[1;24r[12;33H<option $tl7>Year(B[0;1m[33m</option>[13;25H[39m(B[m")[14d(B[0;1m[32m?>[15d[33m</select>[16;17H</td>[17;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[18;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[19;25H(B[0;1m[32m<?php[20;25H(B[0m[37mecho([39m(B[m"[21d  <option $sl1>Second(B[0;1m[33m</option>[13d[39m(B[m[16d[19d[3;22r[22;1H[10S[1;24r[12;33H<option $sl2>Minute(B[0;1m[33m</option>[13;33H[39m(B[m<option $sl3>Hour(B[0;1m[33m</option>[14;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[15;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[16;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[17;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[18;25H[39m(B[m")[19d(B[0;1m[32m?>[20d[33m</select>[21;17H</td>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;9H(B[0;1m[33m</tr>[13;9H<tr>[14;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228; height: 43; backgrou[39m(B[m$[15;17H<input name=(B[0;1m[33m"tFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; height: 28px; font-fam[39m(B[m$[16;17H<td align=(B[0;1m[33m"center"[39m(B[m  style=(B[0;1m[33m"text-align: center; width: 228; heig[39m(B[m$[17;17H<div align=(B[0;1m[33m"center"[39m(B[m ><label id=(B[0;1m[33m"Label1"[39m(B[m style=(B[0;1m[33m"width: 178px; he[39m(B[m$[18;9H(B[0;1m[33m</tr>[19d</table>[20d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[21d(B[0;1m[33m<br>[39m(B[m<input name=(B[0;1m[33m"Submit"[39m(B[m type=(B[0;1m[33m"submit"[39m(B[m value=(B[0;1m[33m"Convert"[39m(B[m style=(B[0;1m[33m"width: 107px; hei[39m(B[m$[14;1H[17d[20d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[33m</form>[13d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[15d(B[0;1m[33m</body>[13d[39m(B[m[16d[13d[10d[7d[4d[2;21r[2;1H[10T[1;24r[3;33H<option $sl3>Hour(B[0;1m[33m</option>[4;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[5;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[6;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[7;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[8;25H[39m(B[m")[9d(B[0;1m[32m?>[10d[33m</select>[11;17H</td>[12;9H</tr>[A[39m(B[m[8d[5d[2;21r[2;1H[10T[1;24r[3;25H")[4d(B[0;1m[32m?>[5d[33m</select>[6;17H</td>[7;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[8;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[9;25H(B[0;1m[32m<?php[10;25H(B[0m[37mecho([39m(B[m"[11d  <option $sl1>Second(B[0;1m[33m</option>[12;33H[39m(B[m<option $sl2>Minute(B[0;1m[33m</option>[39m(B[m[9d[6d[3d[2;21r[2;1H[10T[1;24r[3;25H<select name=(B[0;1m[33m"sFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12[39m(B[m$[4;25H(B[0;1m[32m<?php[5;25H(B[0m[37mecho([39m(B[m"[6d  <option $tl1>Second(B[0;1m[33m</option>[7;33H[39m(B[m<option $tl2>Minute(B[0;1m[33m</option>[8;33H[39m(B[m<option $tl3>Hour(B[0;1m[33m</option>[9;33H[39m(B[m<option $tl4>Day(B[0;1m[33m</option>[10;33H[39m(B[m<option $tl5>Week(B[0;1m[33m</option>[11;33H[39m(B[m<option $tl6>Month(B[0;1m[33m</option>[12;33H[39m(B[m<option $tl7>Year(B[0;1m[33m</option>[10d[39m(B[m[7d[4d[6;17r[17;1H[5S[1;24r[3;21r[3;1H[10T[1;24r[3;1H(B[0;1m[33m<body>[39m(B[m<form method=(B[0;1m[33m"post"[39m(B[m>[4d<table align=(B[0;1m[33m"center"[39m(B[m style=(B[0;1m[33m"width: 458px; font-family: 'Times New Roman', Time[39m(B[m$[5;9H<tr style=(B[0;1m[33m"background-color: #8BD4FF"[39m(B[m>[6;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[7;17HFrom(B[0;1m[33m</td>[8;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[9;17HTo(B[0;1m[33m</td>[10;9H</tr>[11;9H<tr>[12;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[16;44H1>Second(B[0;1m[33m</option>[17;44H[39m(B[m2>Minute(B[0;1m[33m</option>[18;32H[39m(B[m[1K <option $tl3>Hour(B[0;1m[33m</option>[19;32H[39m(B[m[1K <option $tl4>Day(B[0;1m[33m</option>[20;32H[39m(B[m[1K <option $tl5>Week(B[0;1m[33m</option>[21;32H[39m(B[m[1K <option $tl6>Month(B[0;1m[33m</option>[11d[39m(B[m[8d[5d[2;21r[2;1H[10T[1;24r[3;17H$to=$tfrom/(7*24*3600);[4;17H[35mbreak[39m(B[m;[5;9H(B[0;1m[33mcase[39m(B[m 'Year':[6;17H$sl7='Selected';[7;17H$to=$tfrom/(365*24*3600);[8;17H[35mbreak[39m(B[m;[9;9H}[10d$to=[37mround([39m(B[m$to,2);[11d}[12d(B[0;1m[32m?>[39m(B[m[9d[6d[3d[2;21r[2;1H[10T[1;24r[3;9H(B[0;1m[33mcase[39m(B[m 'Day':[4;17H$sl4='Selected';[5;17H$to=$tfrom/(24*3600);[6;17H[35mbreak[39m(B[m;[7;9H(B[0;1m[33mcase[39m(B[m 'Month':[8;17H$sl6='Selected';[9;17H$to=$tfrom/(30*24*3600);[10;17H[35mbreak[39m(B[m;[11;9H(B[0;1m[33mcase[39m(B[m 'Week':[12;17H$sl5='Selected';[10d[7d[4d[2;21r[2;1H[10T[1;24r[3;17H$to=$tfrom;[4;17H[35mbreak[39m(B[m;[5;9H(B[0;1m[33mcase[39m(B[m 'Minute':[6;17H$sl2='Selected';[7;17H$to=$tfrom/60;[8;17H[35mbreak[39m(B[m;[9;9H(B[0;1m[33mcase[39m(B[m 'Hour':[10;17H$sl3='Selected';[11;17H$to=$tfrom/3600;[12;17H[35mbreak[39m(B[m;[A[8d[5d[2;21r[2;1H[10T[1;24r[3;9H(B[0;1m[33mcase[39m(B[m 'Year':[4;17H$tl7='Selected';[5;17H$tfrom*=365*24*3600;[6;17H[35mbreak[39m(B[m;[7;9H}[9d$sto=$_POST['sTo'];[10;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$sto){[11;9H(B[0;1m[33mcase[39m(B[m 'Second':[12;17H$sl1='Selected';[9d[6d[3d[2;21r[2;1H[10T[1;24r[3;17H$tfrom*=24*3600;[4;17H[35mbreak[39m(B[m;[5;9H(B[0;1m[33mcase[39m(B[m 'Month':[6;17H$tl6='Selected';[7;17H$tfrom*=30*24*3600;[8;17H[35mbreak[39m(B[m;[9;9H(B[0;1m[33mcase[39m(B[m 'Week':[10;17H$tl5='Selected';[11;17H$tfrom*=7*24*3600;[12;17H[35mbreak[39m(B[m;[10d[7d[4d[2;21r[2;1H[10T[1;24r[3;9H(B[0;1m[33mcase[39m(B[m 'Minute':[4;17H$tl2='Selected';[5;17H$tfrom*=60;[6;17H[35mbreak[39m(B[m;[7;9H(B[0;1m[33mcase[39m(B[m 'Hour':[8;17H$tl3='Selected';[9;17H$tfrom*=3600;[10;17H[35mbreak[39m(B[m;[11;9H(B[0;1m[33mcase[39m(B[m 'Day':[12;17H$tl4='Selected';[A[8d[5d[2;21r[2;1H[10T[1;24r[4;1H(B[0;1m[32m<?php[5d[39m(B[m$to=000;[6d(B[0;1m[33mif[39m(B[m ([37misset([39m(B[m$_POST['Submit'])){[7;9H$from=$_POST['sFrom'];[8;9H$tfrom=$_POST['tFrom'];[9;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$from){[10;9H(B[0;1m[33mcase[39m(B[m 'Second':[11;17H$tl1='Selected';[12;17H[35mbreak[39m(B[m;[9d[6d[3d[6d[9d[12d[15d[18d[21d7[3;22r8[22d[10S[1;24r[12;17H$tl4='Selected';[13;17H$tfrom*=24*3600;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Month':[16;17H$tl6='Selected';[17;17H$tfrom*=30*24*3600;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Week':[20;17H$tl5='Selected';[21;17H$tfrom*=7*24*3600;[14d[17d[20d[3;22r[22;1H[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Year':[14;17H$tl7='Selected';[15;17H$tfrom*=365*24*3600;[16;17H[35mbreak[39m(B[m;[17;9H}[19d$sto=$_POST['sTo'];[20;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$sto){[21;9H(B[0;1m[33mcase[39m(B[m 'Second':[13d[16d[19d[3;22r[22;1H[10S[1;24r[12;17H$sl1='Selected';[13;17H$to=$tfrom;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Minute':[16;17H$sl2='Selected';[17;17H$to=$tfrom/60;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Hour':[20;17H$sl3='Selected';[21;17H$to=$tfrom/3600;[12d[18d[21d7[3;22r8[22d[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Day':[14;17H$sl4='Selected';[15;17H$to=$tfrom/(24*3600);[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Month':[18;17H$sl6='Selected';[19;17H$to=$tfrom/(30*24*3600);[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Week':[14d[17d[20d[3;22r[22;1H[10S[1;24r[12;17H$sl5='Selected';[13;17H$to=$tfrom/(7*24*3600);[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Year':[16;17H$sl7='Selected';[17;17H$to=$tfrom/(365*24*3600);[18;17H[35mbreak[39m(B[m;[19;9H}[20d$to=[37mround([39m(B[m$to,2);[21d}[13d[16d[19d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[32m?>[13d[33m<body>[39m(B[m<form method=(B[0;1m[33m"post"[39m(B[m>[14d<table align=(B[0;1m[33m"center"[39m(B[m style=(B[0;1m[33m"width: 458px; font-family: 'Times New Roman', Time[39m(B[m$[15;9H<tr style=(B[0;1m[33m"background-color: #8BD4FF"[39m(B[m>[16;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[17;17HFrom(B[0;1m[33m</td>[18;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[19;17HTo(B[0;1m[33m</td>[20;9H</tr>[21;9H<tr>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[13;25H<select name=(B[0;1m[33m"sFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12[39m(B[m$[14;25H(B[0;1m[32m<?php[15;25H(B[0m[37mecho([39m(B[m"[16d  <option $tl1>Second(B[0;1m[33m</option>[17;33H[39m(B[m<option $tl2>Minute(B[0;1m[33m</option>[18;33H[39m(B[m<option $tl3>Hour(B[0;1m[33m</option>[19;33H[39m(B[m<option $tl4>Day(B[0;1m[33m</option>[20;33H[39m(B[m<option $tl5>Week(B[0;1m[33m</option>[21;33H[39m(B[m<option $tl6>Month(B[0;1m[33m</option>[14d[39m(B[m[17d[20d7[3;21r8[21d[10S[1;24r[12;21r[12;1H[5T[1;24r[12;33H<option $tl7>Year(B[0;1m[33m</option>[13;25H[39m(B[m")[14d(B[0;1m[32m?>[15d[33m</select>[16;17H</td>[17;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[18;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[19;25H(B[0;1m[32m<?php[20;25H(B[0m[37mecho([39m(B[m"[21d  <option $sl1>Second(B[0;1m[33m</option>[13d[39m(B[m[16d[19d[3;22r[22;1H[10S[1;24r[12;33H<option $sl2>Minute(B[0;1m[33m</option>[13;33H[39m(B[m<option $sl3>Hour(B[0;1m[33m</option>[14;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[15;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[16;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[17;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[18;25H[39m(B[m")[19d(B[0;1m[32m?>[20d[33m</select>[21;17H</td>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;9H(B[0;1m[33m</tr>[13;9H<tr>[14;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228; height: 43; backgrou[39m(B[m$[15;17H<input name=(B[0;1m[33m"tFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; height: 28px; font-fam[39m(B[m$[16;17H<td align=(B[0;1m[33m"center"[39m(B[m  style=(B[0;1m[33m"text-align: center; width: 228; heig[39m(B[m$[17;17H<div align=(B[0;1m[33m"center"[39m(B[m ><label id=(B[0;1m[33m"Label1"[39m(B[m style=(B[0;1m[33m"width: 178px; he[39m(B[m$[18;9H(B[0;1m[33m</tr>[19d</table>[20d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[21d(B[0;1m[33m<br>[39m(B[m<input name=(B[0;1m[33m"Submit"[39m(B[m type=(B[0;1m[33m"submit"[39m(B[m value=(B[0;1m[33m"Convert"[39m(B[m style=(B[0;1m[33m"width: 107px; hei[39m(B[m$[14;1H[17d[20d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[33m</form>[13d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[15d(B[0;1m[33m</body>[13d[39m(B[m[16d[23d[J[24;80H[24;1H[?1049l[?1l>]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo stem[K[K[Kystemct;[Klc[K restart apacjh[K[Khe2
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo systemctl restart apache2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;32H(B[0;7m[ Read 123 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3         File: /var/www/html/index.php                          [4;1H(B[0;1m[32m<?php[5d[39m(B[m$to=000;[6d(B[0;1m[33mif[39m(B[m ([37misset([39m(B[m$_POST['Submit'])){[7;9H$from=$_POST['sFrom'];[8;9H$tfrom=$_POST['tFrom'];[9;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$from){[10;9H(B[0;1m[33mcase[39m(B[m 'Second':[11;17H$tl1='Selected';[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Minute':[14;17H$tl2='Selected';[15;17H$tfrom*=60;[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Hour':[18;17H$tl3='Selected';[19;17H$tfrom*=3600;[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Day':[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[6d[9d[12d[15d[12d[9d[6d[3d[22d[K[3d[6d[9d[12d[15d[18d[21d7[3;22r8[22d[10S[1;24r[12;17H$tl4='Selected';[13;17H$tfrom*=24*3600;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Month':[16;17H$tl6='Selected';[17;17H$tfrom*=30*24*3600;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Week':[20;17H$tl5='Selected';[21;17H$tfrom*=7*24*3600;[14d[17d[20d[3;22r[22;1H[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Year':[14;17H$tl7='Selected';[15;17H$tfrom*=365*24*3600;[16;17H[35mbreak[39m(B[m;[17;9H}[19d$sto=$_POST['sTo'];[20;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$sto){[21;9H(B[0;1m[33mcase[39m(B[m 'Second':[13d[16d[19d[3;22r[22;1H[10S[1;24r[12;17H$sl1='Selected';[13;17H$to=$tfrom;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Minute':[16;17H$sl2='Selected';[17;17H$to=$tfrom/60;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Hour':[20;17H$sl3='Selected';[21;17H$to=$tfrom/3600;[12d[18d[21d7[3;22r8[22d[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Day':[14;17H$sl4='Selected';[15;17H$to=$tfrom/(24*3600);[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Month':[18;17H$sl6='Selected';[19;17H$to=$tfrom/(30*24*3600);[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Week':[14d[17d[20d[3;22r[22;1H[10S[1;24r[12;17H$sl5='Selected';[13;17H$to=$tfrom/(7*24*3600);[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Year':[16;17H$sl7='Selected';[17;17H$to=$tfrom/(365*24*3600);[18;17H[35mbreak[39m(B[m;[19;9H}[20d$to=[37mround([39m(B[m$to,2);[21d}[16d[19d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[32m?>[13d[33m<body>[39m(B[m<form method=(B[0;1m[33m"post"[39m(B[m>[14d<table align=(B[0;1m[33m"center"[39m(B[m style=(B[0;1m[33m"width: 458px; font-family: 'Times New Roman', Time[39m(B[m$[15;9H<tr style=(B[0;1m[33m"background-color: #8BD4FF"[39m(B[m>[16;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[17;17HFrom(B[0;1m[33m</td>[18;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[19;17HTo(B[0;1m[33m</td>[20;9H</tr>[21;9H<tr>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[13;25H<select name=(B[0;1m[33m"sFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12[39m(B[m$[14;25H(B[0;1m[32m<?php[15;25H(B[0m[37mecho([39m(B[m"[16d  <option $tl1>Second(B[0;1m[33m</option>[17;33H[39m(B[m<option $tl2>Minute(B[0;1m[33m</option>[18;33H[39m(B[m<option $tl3>Hour(B[0;1m[33m</option>[19;33H[39m(B[m<option $tl4>Day(B[0;1m[33m</option>[20;33H[39m(B[m<option $tl5>Week(B[0;1m[33m</option>[21;33H[39m(B[m<option $tl6>Month(B[0;1m[33m</option>[14d[39m(B[m[17d[3;21r[21;1H[10S[1;24r[12;21r[12;1H[5T[1;24r[12;33H<option $tl7>Year(B[0;1m[33m</option>[13;25H[39m(B[m")[14d(B[0;1m[32m?>[15d[33m</select>[16;17H</td>[17;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[18;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[19;25H(B[0;1m[32m<?php[20;25H(B[0m[37mecho([39m(B[m"[21d  <option $sl1>Second(B[0;1m[33m</option>[13d[39m(B[m[16d[19d[3;22r[22;1H[10S[1;24r[12;33H<option $sl2>Minute(B[0;1m[33m</option>[13;33H[39m(B[m<option $sl3>Hour(B[0;1m[33m</option>[14;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[15;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[16;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[17;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[18;25H[39m(B[m")[19d(B[0;1m[32m?>[20d[33m</select>[21;17H</td>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;9H(B[0;1m[33m</tr>[13;9H<tr>[14;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228; height: 43; backgrou[39m(B[m$[15;17H<input name=(B[0;1m[33m"tFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; height: 28px; font-fam[39m(B[m$[16;17H<td align=(B[0;1m[33m"center"[39m(B[m  style=(B[0;1m[33m"text-align: center; width: 228; heig[39m(B[m$[17;17H<div align=(B[0;1m[33m"center"[39m(B[m ><label id=(B[0;1m[33m"Label1"[39m(B[m style=(B[0;1m[33m"width: 178px; he[39m(B[m$[18;9H(B[0;1m[33m</tr>[19d</table>[20d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[21d(B[0;1m[33m<br>[39m(B[m<input name=(B[0;1m[33m"Submit"[39m(B[m type=(B[0;1m[33m"submit"[39m(B[m value=(B[0;1m[33m"Convert"[39m(B[m style=(B[0;1m[33m"width: 107px; hei[39m(B[m$[14;1H[17d[20d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[33m</form>[13d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[15d(B[0;1m[33m</body>[13d[39m(B[m[16d[13d[10d[7d[4d[2;21r[2;1H[10T[1;24r[3;33H<option $sl3>Hour(B[0;1m[33m</option>[4;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[5;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[6;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[7;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[8;25H[39m(B[m")[9d(B[0;1m[32m?>[10d[33m</select>[11;17H</td>[12;9H</tr>[A[39m(B[m[8d[5d[2;21r[2;1H[10T[1;24r[3;25H")[4d(B[0;1m[32m?>[5d[33m</select>[6;17H</td>[7;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[8;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[9;25H(B[0;1m[32m<?php[10;25H(B[0m[37mecho([39m(B[m"[11d  <option $sl1>Second(B[0;1m[33m</option>[12;33H[39m(B[m<option $sl2>Minute(B[0;1m[33m</option>[39m(B[m[9d[6d[3d[2;21r[2;1H[10T[1;24r[3;25H<select name=(B[0;1m[33m"sFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12[39m(B[m$[4;25H(B[0;1m[32m<?php[5;25H(B[0m[37mecho([39m(B[m"[6d  <option $tl1>Second(B[0;1m[33m</option>[7;33H[39m(B[m<option $tl2>Minute(B[0;1m[33m</option>[8;33H[39m(B[m<option $tl3>Hour(B[0;1m[33m</option>[9;33H[39m(B[m<option $tl4>Day(B[0;1m[33m</option>[10;33H[39m(B[m<option $tl5>Week(B[0;1m[33m</option>[11;33H[39m(B[m<option $tl6>Month(B[0;1m[33m</option>[12;33H[39m(B[m<option $tl7>Year(B[0;1m[33m</option>[10d[39m(B[m[7d[4d[6;17r[17;1H[5S[1;24r[3;21r[3;1H[10T[1;24r[3;1H(B[0;1m[33m<body>[39m(B[m<form method=(B[0;1m[33m"post"[39m(B[m>[4d<table align=(B[0;1m[33m"center"[39m(B[m style=(B[0;1m[33m"width: 458px; font-family: 'Times New Roman', Time[39m(B[m$[5;9H<tr style=(B[0;1m[33m"background-color: #8BD4FF"[39m(B[m>[6;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[7;17HFrom(B[0;1m[33m</td>[8;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[9;17HTo(B[0;1m[33m</td>[10;9H</tr>[11;9H<tr>[12;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[16;44H1>Second(B[0;1m[33m</option>[17;44H[39m(B[m2>Minute(B[0;1m[33m</option>[18;32H[39m(B[m[1K <option $tl3>Hour(B[0;1m[33m</option>[19;32H[39m(B[m[1K <option $tl4>Day(B[0;1m[33m</option>[20;32H[39m(B[m[1K <option $tl5>Week(B[0;1m[33m</option>[21;32H[39m(B[m[1K <option $tl6>Month(B[0;1m[33m</option>[11d[39m(B[m[8d[5d[2;21r[2;1H[10T[1;24r[3;17H$to=$tfrom/(7*24*3600);[4;17H[35mbreak[39m(B[m;[5;9H(B[0;1m[33mcase[39m(B[m 'Year':[6;17H$sl7='Selected';[7;17H$to=$tfrom/(365*24*3600);[8;17H[35mbreak[39m(B[m;[9;9H}[10d$to=[37mround([39m(B[m$to,2);[11d}[12d(B[0;1m[32m?>[39m(B[m[9d[6d[3d[2;21r[2;1H[10T[1;24r[3;9H(B[0;1m[33mcase[39m(B[m 'Day':[4;17H$sl4='Selected';[5;17H$to=$tfrom/(24*3600);[6;17H[35mbreak[39m(B[m;[7;9H(B[0;1m[33mcase[39m(B[m 'Month':[8;17H$sl6='Selected';[9;17H$to=$tfrom/(30*24*3600);[10;17H[35mbreak[39m(B[m;[11;9H(B[0;1m[33mcase[39m(B[m 'Week':[12;17H$sl5='Selected';[10d[7d[4d[2;21r[2;1H[10T[1;24r[3;17H$to=$tfrom;[4;17H[35mbreak[39m(B[m;[5;9H(B[0;1m[33mcase[39m(B[m 'Minute':[6;17H$sl2='Selected';[7;17H$to=$tfrom/60;[8;17H[35mbreak[39m(B[m;[9;9H(B[0;1m[33mcase[39m(B[m 'Hour':[10;17H$sl3='Selected';[11;17H$to=$tfrom/3600;[12;17H[35mbreak[39m(B[m;[A[8d[5d[2;21r[2;1H[10T[1;24r[3;9H(B[0;1m[33mcase[39m(B[m 'Year':[4;17H$tl7='Selected';[5;17H$tfrom*=365*24*3600;[6;17H[35mbreak[39m(B[m;[7;9H}[9d$sto=$_POST['sTo'];[10;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$sto){[11;9H(B[0;1m[33mcase[39m(B[m 'Second':[12;17H$sl1='Selected';[9d[6d[3d[2;21r[2;1H[10T[1;24r[3;17H$tfrom*=24*3600;[4;17H[35mbreak[39m(B[m;[5;9H(B[0;1m[33mcase[39m(B[m 'Month':[6;17H$tl6='Selected';[7;17H$tfrom*=30*24*3600;[8;17H[35mbreak[39m(B[m;[9;9H(B[0;1m[33mcase[39m(B[m 'Week':[10;17H$tl5='Selected';[11;17H$tfrom*=7*24*3600;[12;17H[35mbreak[39m(B[m;[10d[7d[4d[7d[10d[13d[16d[19d[3;22r[22;1H[10S[1;24r[12;17H$sl1='Selected';[13;17H$to=$tfrom;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Minute':[16;17H$sl2='Selected';[17;17H$to=$tfrom/60;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Hour':[20;17H$sl3='Selected';[21;17H$to=$tfrom/3600;[12d[15d[18d[21d7[3;22r8[22d[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Day':[14;17H$sl4='Selected';[15;17H$to=$tfrom/(24*3600);[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Month':[18;17H$sl6='Selected';[19;17H$to=$tfrom/(30*24*3600);[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Week':[14d[17d[20d[3;22r[22;1H[10S[1;24r[12;17H$sl5='Selected';[13;17H$to=$tfrom/(7*24*3600);[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Year':[16;17H$sl7='Selected';[17;17H$to=$tfrom/(365*24*3600);[18;17H[35mbreak[39m(B[m;[19;9H}[20d$to=[37mround([39m(B[m$to,2);[21d}[13d[16d[19d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[32m?>[13d[33m<body>[39m(B[m<form method=(B[0;1m[33m"post"[39m(B[m>[14d<table align=(B[0;1m[33m"center"[39m(B[m style=(B[0;1m[33m"width: 458px; font-family: 'Times New Roman', Time[39m(B[m$[15;9H<tr style=(B[0;1m[33m"background-color: #8BD4FF"[39m(B[m>[16;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[17;17HFrom(B[0;1m[33m</td>[18;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[19;17HTo(B[0;1m[33m</td>[20;9H</tr>[21;9H<tr>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[13;25H<select name=(B[0;1m[33m"sFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12[39m(B[m$[14;25H(B[0;1m[32m<?php[15;25H(B[0m[37mecho([39m(B[m"[16d  <option $tl1>Second(B[0;1m[33m</option>[17;33H[39m(B[m<option $tl2>Minute(B[0;1m[33m</option>[18;33H[39m(B[m<option $tl3>Hour(B[0;1m[33m</option>[19;33H[39m(B[m<option $tl4>Day(B[0;1m[33m</option>[20;33H[39m(B[m<option $tl5>Week(B[0;1m[33m</option>[21;33H[39m(B[m<option $tl6>Month(B[0;1m[33m</option>[14d[39m(B[m[17d[20d7[3;21r8[21d[10S[1;24r[12;21r[12;1H[5T[1;24r[12;33H<option $tl7>Year(B[0;1m[33m</option>[13;25H[39m(B[m")[14d(B[0;1m[32m?>[15d[33m</select>[16;17H</td>[17;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[18;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[19;25H(B[0;1m[32m<?php[20;25H(B[0m[37mecho([39m(B[m"[21d  <option $sl1>Second(B[0;1m[33m</option>[13d[39m(B[m[16d[19d[3;22r[22;1H[10S[1;24r[12;33H<option $sl2>Minute(B[0;1m[33m</option>[13;33H[39m(B[m<option $sl3>Hour(B[0;1m[33m</option>[14;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[15;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[16;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[17;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[18;25H[39m(B[m")[19d(B[0;1m[32m?>[20d[33m</select>[21;17H</td>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;9H(B[0;1m[33m</tr>[13;9H<tr>[14;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228; height: 43; backgrou[39m(B[m$[15;17H<input name=(B[0;1m[33m"tFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; height: 28px; font-fam[39m(B[m$[16;17H<td align=(B[0;1m[33m"center"[39m(B[m  style=(B[0;1m[33m"text-align: center; width: 228; heig[39m(B[m$[17;17H<div align=(B[0;1m[33m"center"[39m(B[m ><label id=(B[0;1m[33m"Label1"[39m(B[m style=(B[0;1m[33m"width: 178px; he[39m(B[m$[18;9H(B[0;1m[33m</tr>[19d</table>[20d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[21d(B[0;1m[33m<br>[39m(B[m<input name=(B[0;1m[33m"Submit"[39m(B[m type=(B[0;1m[33m"submit"[39m(B[m value=(B[0;1m[33m"Convert"[39m(B[m style=(B[0;1m[33m"width: 107px; hei[39m(B[m$[14;1H[17d[20d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[33m</form>[13d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[15d(B[0;1m[33m</body>[13d[39m(B[m[16d[23d[J[24;80H[24;1H[?1049l[?1l>]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;32H(B[0;7m[ Read 123 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3         File: /var/www/html/index.php                          [4;1H(B[0;1m[32m<?php[5d[39m(B[m$to=000;[6d(B[0;1m[33mif[39m(B[m ([37misset([39m(B[m$_POST['Submit'])){[7;9H$from=$_POST['sFrom'];[8;9H$tfrom=$_POST['tFrom'];[9;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$from){[10;9H(B[0;1m[33mcase[39m(B[m 'Second':[11;17H$tl1='Selected';[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Minute':[14;17H$tl2='Selected';[15;17H$tfrom*=60;[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Hour':[18;17H$tl3='Selected';[19;17H$tfrom*=3600;[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Day':[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[6d[9d[12d[15d[18d[21d7[3;21r8[10S[1;24r[12;17H$tl4='Selected';[13;17H$tfrom*=24*3600;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Month':[16;17H$tl6='Selected';[17;17H$tfrom*=30*24*3600;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Week':[20;17H$tl5='Selected';[21;17H$tfrom*=7*24*3600;[14d[17d[22d[K[20d[3;22r[22;1H[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Year':[14;17H$tl7='Selected';[15;17H$tfrom*=365*24*3600;[16;17H[35mbreak[39m(B[m;[17;9H}[19d$sto=$_POST['sTo'];[20;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$sto){[21;9H(B[0;1m[33mcase[39m(B[m 'Second':[13d[16d[19d[3;22r[22;1H[10S[1;24r[12;17H$sl1='Selected';[13;17H$to=$tfrom;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Minute':[16;17H$sl2='Selected';[17;17H$to=$tfrom/60;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Hour':[20;17H$sl3='Selected';[21;17H$to=$tfrom/3600;[12d[18d[21d7[3;22r8[22d[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Day':[14;17H$sl4='Selected';[15;17H$to=$tfrom/(24*3600);[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Month':[18;17H$sl6='Selected';[19;17H$to=$tfrom/(30*24*3600);[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Week':[14d[17d[20d[3;22r[22;1H[10S[1;24r[12;17H$sl5='Selected';[13;17H$to=$tfrom/(7*24*3600);[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Year':[16;17H$sl7='Selected';[17;17H$to=$tfrom/(365*24*3600);[18;17H[35mbreak[39m(B[m;[19;9H}[20d$to=[37mround([39m(B[m$to,2);[21d}[13d[16d[19d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[32m?>[13d[33m<body>[39m(B[m<form method=(B[0;1m[33m"post"[39m(B[m>[14d<table align=(B[0;1m[33m"center"[39m(B[m style=(B[0;1m[33m"width: 458px; font-family: 'Times New Roman', Time[39m(B[m$[15;9H<tr style=(B[0;1m[33m"background-color: #8BD4FF"[39m(B[m>[16;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[17;17HFrom(B[0;1m[33m</td>[18;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[19;17HTo(B[0;1m[33m</td>[20;9H</tr>[21;9H<tr>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[13;25H<select name=(B[0;1m[33m"sFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12[39m(B[m$[14;25H(B[0;1m[32m<?php[15;25H(B[0m[37mecho([39m(B[m"[16d  <option $tl1>Second(B[0;1m[33m</option>[17;33H[39m(B[m<option $tl2>Minute(B[0;1m[33m</option>[18;33H[39m(B[m<option $tl3>Hour(B[0;1m[33m</option>[19;33H[39m(B[m<option $tl4>Day(B[0;1m[33m</option>[20;33H[39m(B[m<option $tl5>Week(B[0;1m[33m</option>[21;33H[39m(B[m<option $tl6>Month(B[0;1m[33m</option>[14d[39m(B[m[17d[20d7[3;21r8[21d[10S[1;24r[12;21r[12;1H[5T[1;24r[12;33H<option $tl7>Year(B[0;1m[33m</option>[13;25H[39m(B[m")[14d(B[0;1m[32m?>[15d[33m</select>[16;17H</td>[17;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[18;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[19;25H(B[0;1m[32m<?php[20;25H(B[0m[37mecho([39m(B[m"[21d  <option $sl1>Second(B[0;1m[33m</option>[13d[39m(B[m[16d[19d[3;22r[22;1H[10S[1;24r[12;33H<option $sl2>Minute(B[0;1m[33m</option>[13;33H[39m(B[m<option $sl3>Hour(B[0;1m[33m</option>[14;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[15;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[16;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[17;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[18;25H[39m(B[m")[19d(B[0;1m[32m?>[20d[33m</select>[21;17H</td>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;9H(B[0;1m[33m</tr>[13;9H<tr>[14;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228; height: 43; backgrou[39m(B[m$[15;17H<input name=(B[0;1m[33m"tFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; height: 28px; font-fam[39m(B[m$[16;17H<td align=(B[0;1m[33m"center"[39m(B[m  style=(B[0;1m[33m"text-align: center; width: 228; heig[39m(B[m$[17;17H<div align=(B[0;1m[33m"center"[39m(B[m ><label id=(B[0;1m[33m"Label1"[39m(B[m style=(B[0;1m[33m"width: 178px; he[39m(B[m$[18;9H(B[0;1m[33m</tr>[19d</table>[20d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[21d(B[0;1m[33m<br>[39m(B[m<input name=(B[0;1m[33m"Submit"[39m(B[m type=(B[0;1m[33m"submit"[39m(B[m value=(B[0;1m[33m"Convert"[39m(B[m style=(B[0;1m[33m"width: 107px; hei[39m(B[m$[14;1H[17d[20d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[33m</form>[13d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[15d(B[0;1m[33m</body>[13d[39m(B[m[16d[23d[J[24;80H[24;1H[?1049l[?1l>]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psystemctl restart apache2
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo systemctl restart apache2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psystemctl restart apache2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psystemctl restart apache2[C[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2[1P apache2s apache2t apache2a apache2t apache2u apache2s apache2[C apache2[1Papache2
+[?1h=[0;1;32m●[0m apache2.service - LSB: Apache2 web server[m
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)[m
+  Drop-In: /lib/systemd/system/apache2.service.d[m
+           └─apache2-systemd.conf[m
+   Active: [0;1;32mactive (running)[0m since Mon 2019-04-29 11:27:10 IST; 1min 34s ago[m
+     Docs: man:systemd-sysv-generator(8)[m
+  Process: 7527 ExecStop=/etc/init.d/apache2 stop (code=exited, status=0/SUCCESS[m
+  Process: 7550 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCE[m
+   CGroup: /system.slice/apache2.service[m
+           ├─7566 /usr/sbin/apache2 -k start[m
+           ├─7569 /usr/sbin/apache2 -k start[m
+           ├─7570 /usr/sbin/apache2 -k start[m
+           ├─7571 /usr/sbin/apache2 -k start[m
+           ├─7572 /usr/sbin/apache2 -k start[m
+           ├─7573 /usr/sbin/apache2 -k start[m
+           └─7578 /usr/sbin/apache2 -k start[m
+[m
+Apr 29 11:27:09 cec-H110M systemd[1]: Starting LSB: Apache2 web server...[m
+Apr 29 11:27:09 cec-H110M apache2[7550]:  * Starting Apache httpd web server apa[m
+Apr 29 11:27:09 cec-H110M apache2[7550]: AH00558: apache2: Could not reliably de[m
+Apr 29 11:27:10 cec-H110M apache2[7550]:  *[m
+Apr 29 11:27:10 cec-H110M systemd[1]: Started LSB: Apache2 web server.[m
+[7mlines 1-22/22 (END)[27m[K[K[?1l>
+[3]+  Stopped                 sudo systemctl status apache2
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo systemctl status apache2[1@restart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psystemctl restart apache2[1Pstatus[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd/var
+bash: cd/var: No such file or directory
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ cd var
+bash: cd: var: No such file or directory
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ cd var/varsudo systemctl status apache2[1@restart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psystemctl restart apache2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php[C[Cg /var/www/html/index.phpe /var/www/html/index.phpd /var/www/html/index.phpo /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgd[Kedit index.php
+
+** (gedit:7677): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo gedit index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd var[K/varsudo systemctl status apache2[1@restart[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psystemctl restart apache2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Psystemctl restart apache2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnano /var/www/html/index.php
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ][3d(B[m[22;32H(B[0;7m[ Read 123 lines ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3         File: /var/www/html/index.php                          [4;1H(B[0;1m[32m<?php[5d[39m(B[m$to=000;[6d(B[0;1m[33mif[39m(B[m ([37misset([39m(B[m$_POST['Submit'])){[7;9H$from=$_POST['sFrom'];[8;9H$tfrom=$_POST['tFrom'];[9;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$from){[10;9H(B[0;1m[33mcase[39m(B[m 'Second':[11;17H$tl1='Selected';[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Minute':[14;17H$tl2='Selected';[15;17H$tfrom*=60;[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Hour':[18;17H$tl3='Selected';[19;17H$tfrom*=3600;[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Day':[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[6d[9d[12d[15d[18d[21d7[3;21r8[10S[1;24r[12;17H$tl4='Selected';[13;17H$tfrom*=24*3600;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Month':[16;17H$tl6='Selected';[17;17H$tfrom*=30*24*3600;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Week':[20;17H$tl5='Selected';[21;17H$tfrom*=7*24*3600;[14d[22d[K[17d[20d[3;22r[22;1H[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Year':[14;17H$tl7='Selected';[15;17H$tfrom*=365*24*3600;[16;17H[35mbreak[39m(B[m;[17;9H}[19d$sto=$_POST['sTo'];[20;9H(B[0;1m[33mswitch(B[0m[37m([39m(B[m$sto){[21;9H(B[0;1m[33mcase[39m(B[m 'Second':[13d[16d[19d[3;22r[22;1H[10S[1;24r[12;17H$sl1='Selected';[13;17H$to=$tfrom;[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Minute':[16;17H$sl2='Selected';[17;17H$to=$tfrom/60;[18;17H[35mbreak[39m(B[m;[19;9H(B[0;1m[33mcase[39m(B[m 'Hour':[20;17H$sl3='Selected';[21;17H$to=$tfrom/3600;[12d[15d[18d[21d7[3;22r8[22d[10S[1;24r[12;17H[35mbreak[39m(B[m;[13;9H(B[0;1m[33mcase[39m(B[m 'Day':[14;17H$sl4='Selected';[15;17H$to=$tfrom/(24*3600);[16;17H[35mbreak[39m(B[m;[17;9H(B[0;1m[33mcase[39m(B[m 'Month':[18;17H$sl6='Selected';[19;17H$to=$tfrom/(30*24*3600);[20;17H[35mbreak[39m(B[m;[21;9H(B[0;1m[33mcase[39m(B[m 'Week':[14d[17d[20d[3;22r[22;1H[10S[1;24r[12;17H$sl5='Selected';[13;17H$to=$tfrom/(7*24*3600);[14;17H[35mbreak[39m(B[m;[15;9H(B[0;1m[33mcase[39m(B[m 'Year':[16;17H$sl7='Selected';[17;17H$to=$tfrom/(365*24*3600);[18;17H[35mbreak[39m(B[m;[19;9H}[20d$to=[37mround([39m(B[m$to,2);[21d}[13d[16d[19d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[32m?>[13d[33m<body>[39m(B[m<form method=(B[0;1m[33m"post"[39m(B[m>[14d<table align=(B[0;1m[33m"center"[39m(B[m style=(B[0;1m[33m"width: 458px; font-family: 'Times New Roman', Time[39m(B[m$[15;9H<tr style=(B[0;1m[33m"background-color: #8BD4FF"[39m(B[m>[16;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[17;17HFrom(B[0;1m[33m</td>[18;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; font-size: 17pt; h[39m(B[m$[19;17HTo(B[0;1m[33m</td>[20;9H</tr>[21;9H<tr>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;17H<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[13;25H<select name=(B[0;1m[33m"sFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12[39m(B[m$[14;25H(B[0;1m[32m<?php[15;25H(B[0m[37mecho([39m(B[m"[16d  <option $tl1>Second(B[0;1m[33m</option>[17;33H[39m(B[m<option $tl2>Minute(B[0;1m[33m</option>[18;33H[39m(B[m<option $tl3>Hour(B[0;1m[33m</option>[19;33H[39m(B[m<option $tl4>Day(B[0;1m[33m</option>[20;33H[39m(B[m<option $tl5>Week(B[0;1m[33m</option>[21;33H[39m(B[m<option $tl6>Month(B[0;1m[33m</option>[14d[39m(B[m[17d[20d7[3;21r8[21d[10S[1;24r[12;21r[12;1H[5T[1;24r[12;33H<option $tl7>Year(B[0;1m[33m</option>[13;25H[39m(B[m")[14d(B[0;1m[32m?>[15d[33m</select>[16;17H</td>[17;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[18;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[19;25H(B[0;1m[32m<?php[20;25H(B[0m[37mecho([39m(B[m"[21d  <option $sl1>Second(B[0;1m[33m</option>[13d[39m(B[m[16d[19d[3;22r[22;1H[10S[1;24r[12;33H<option $sl2>Minute(B[0;1m[33m</option>[13;33H[39m(B[m<option $sl3>Hour(B[0;1m[33m</option>[14;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[15;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[16;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[17;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[18;25H[39m(B[m")[19d(B[0;1m[32m?>[20d[33m</select>[21;17H</td>[12d[39m(B[m[15d[18d[21d7[2;22r8[22d[10S[1;24r[2;1H[K[12;9H(B[0;1m[33m</tr>[13;9H<tr>[14;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228; height: 43; backgrou[39m(B[m$[15;17H<input name=(B[0;1m[33m"tFrom"[39m(B[m style=(B[0;1m[33m"width: 178px; height: 28px; font-fam[39m(B[m$[16;17H<td align=(B[0;1m[33m"center"[39m(B[m  style=(B[0;1m[33m"text-align: center; width: 228; heig[39m(B[m$[17;17H<div align=(B[0;1m[33m"center"[39m(B[m ><label id=(B[0;1m[33m"Label1"[39m(B[m style=(B[0;1m[33m"width: 178px; he[39m(B[m$[18;9H(B[0;1m[33m</tr>[19d</table>[20d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[21d(B[0;1m[33m<br>[39m(B[m<input name=(B[0;1m[33m"Submit"[39m(B[m type=(B[0;1m[33m"submit"[39m(B[m value=(B[0;1m[33m"Convert"[39m(B[m style=(B[0;1m[33m"width: 107px; hei[39m(B[m$[14;1H[17d[20d[2;22r[22;1H[10S[1;24r[2;1H[K[12d(B[0;1m[33m</form>[13d[39m(B[m<div style=(B[0;1m[33m"text-align: center"[39m(B[m>[15d(B[0;1m[33m</body>[13d[39m(B[m[10d[7d[4d[2;21r[2;1H[10T[1;24r[3;33H<option $sl3>Hour(B[0;1m[33m</option>[4;33H[39m(B[m<option $sl4>Day(B[0;1m[33m</option>[5;33H[39m(B[m<option $sl5>Week(B[0;1m[33m</option>[6;33H[39m(B[m<option $sl6>Month(B[0;1m[33m</option>[7;33H[39m(B[m<option $sl7>Year(B[0;1m[33m</option>[8;25H[39m(B[m")[9d(B[0;1m[32m?>[10d[33m</select>[11;17H</td>[12;9H</tr>[A[39m(B[m[8d[5d[2;21r[2;1H[10T[1;24r[3;25H")[4d(B[0;1m[32m?>[5d[33m</select>[6;17H</td>[7;17H[39m(B[m<td style=(B[0;1m[33m"text-align: center; width: 228px; height: 29px; back[39m(B[m$[8;25H<select name=(B[0;1m[33m"sTo"[39m(B[m style=(B[0;1m[33m"width: 178px; font-size: 12pt[39m(B[m$[9;25H(B[0;1m[32m<?php[10;25H(B[0m[37mecho([39m(B[m"[11d  <option $sl1>Second(B[0;1m[33m</option>[12;33H[39m(B[m<option $sl2>Minute(B[0;1m[33m</option>[39m(B[m[9d[6d[23d[J[24;80H[24;1H[?1049l[?1l>]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php[C[K[K[K[K[K[K[K[K[K[K/[1P /var/www/html/[1P /var/www/html/[1P /var/www/html/[1P /var/www/html/[1P/var/www/html/[1P /var/www/html/[1P /var/www/html/[1P /var/www/html/[1P /var/www/html/c /var/www/html/d /var/www/html/
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ ls
+index.html  index.php
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ rm index.html 
+rm: remove write-protected regular file 'index.html'? 
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ sudo i[Krr[Km index.html 
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ cat index.php 
+
+<?php
+$to=000;
+if (isset($_POST['Submit'])){
+	$from=$_POST['sFrom'];
+	$tfrom=$_POST['tFrom'];
+	switch($from){
+	case 'Second':
+		$tl1='Selected';
+		break;
+	case 'Minute':
+		$tl2='Selected';
+		$tfrom*=60;
+		break;
+	case 'Hour':
+		$tl3='Selected';
+		$tfrom*=3600;
+		break;
+	case 'Day':
+		$tl4='Selected';
+		$tfrom*=24*3600;
+		break;
+	case 'Month':
+		$tl6='Selected';
+		$tfrom*=30*24*3600;
+		break;
+	case 'Week':
+		$tl5='Selected';
+		$tfrom*=7*24*3600;
+		break;
+	case 'Year':
+		$tl7='Selected';
+		$tfrom*=365*24*3600;
+		break;
+	}
+
+	$sto=$_POST['sTo'];
+	switch($sto){
+	case 'Second':
+		$sl1='Selected';
+		$to=$tfrom;
+		break;
+	case 'Minute':
+		$sl2='Selected';
+		$to=$tfrom/60;
+		break;
+	case 'Hour':
+		$sl3='Selected';
+		$to=$tfrom/3600;
+		break;
+	case 'Day':
+		$sl4='Selected';
+		$to=$tfrom/(24*3600);
+		break;
+	case 'Month':
+		$sl6='Selected';
+		$to=$tfrom/(30*24*3600);
+		break;
+	case 'Week':
+		$sl5='Selected';
+		$to=$tfrom/(7*24*3600);
+		break;
+	case 'Year':
+		$sl7='Selected';
+		$to=$tfrom/(365*24*3600);
+		break;
+	}
+	$to=round($to,2);
+}
+?>
+<body><form method="post">
+<table align="center" style="width: 458px; font-family: 'Times New Roman', Times, serif; height: 87px; border-width: 0px">
+	<tr style="background-color: #8BD4FF">
+		<td style="text-align: center; width: 228px; font-size: 17pt; height: 29px; background-color: #CECEFF;">
+		From</td>
+		<td style="text-align: center; width: 228px; font-size: 17pt; height: 29px; background-color: #CECEFF;">
+		To</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; width: 228px; height: 29px; background-color: #C6FFF2;">
+			<select name="sFrom" style="width: 178px; font-size: 12pt; font-family: 'times New Roman', Times, serif;">
+			<?php
+			echo("
+				<option $tl1>Second</option>
+				<option $tl2>Minute</option>
+				<option $tl3>Hour</option>
+				<option $tl4>Day</option>
+				<option $tl5>Week</option>
+				<option $tl6>Month</option>
+				<option $tl7>Year</option>
+			")
+			?>
+			</select>
+		</td>
+		<td style="text-align: center; width: 228px; height: 29px; background-color: #C6FFF2;">
+			<select name="sTo" style="width: 178px; font-size: 12pt; font-family: 'times New Roman', Times, serif;">
+			<?php
+			echo("
+				<option $sl1>Second</option>
+				<option $sl2>Minute</option>
+				<option $sl3>Hour</option>
+				<option $sl4>Day</option>
+				<option $sl5>Week</option>
+				<option $sl6>Month</option>
+				<option $sl7>Year</option>
+			")
+			?>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; width: 228; height: 43; background-color: #C6FFF2;">
+		<input name="tFrom" style="width: 178px; height: 28px; font-family: 'Times New Roman', Times, serif; font-size: 12pt; margin-bottom: 5px" value="<?php if (isset($_POST['Submit'])) echo $_POST['tFrom'] ?>"></td>
+		<td align="center"  style="text-align: center; width: 228; height: 43; background-color: #C6FFF2;">
+		<div align="center" ><label id="Label1" style="width: 178px; height: 28px; font-family: 'Times New Roman', Times, serif; font-size: 12pt; margin-bottom: 5px; background-color: #FAFAFA; display: block;"><?php echo $to?></label></div></td>
+	</tr>
+</table>
+	<div style="text-align: center">
+<br><input name="Submit" type="submit" value="Convert" style="width: 107px; height: 38px; font-family: 'times New Roman', Times, serif; font-size: 20px"></div>
+</form>
+<div style="text-align: center">
+
+</body>
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ d[Ksudo gedit index.php 
+
+(gedit:8390): Gtk-WARNING **: Calling Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (gedit:8390): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8390): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8390): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-spell-enabled not supported
+
+** (gedit:8390): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (gedit:8390): WARNING **: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ ls
+index.php
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ lssudo gedit index.php [7Pca[C[C[C[C[C[C[C[C[C[C[C[C
+   <?php  
+    $x=15;  
+    $y=30;  
+    $z=$x+$y;  
+    echo "Sum: ",$z;  
+    ?>  
+
+
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ sudo stem[K[K[Kya[Kstem [Kctl start ap[K[K[K[K[K[K[K[Krestart apache2
+]0;cec@cec-H110M: /var/www/html[01;32mcec@cec-H110M[00m:[01;34m/var/www/html[00m$ cd
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ cd[K[Ksftp ceccs17d29@192.169.0.30
+
+^Z
+[4]+  Stopped                 sftp ceccs17d29@192.169.0.30
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ sftp ceccs17d29@192.169.0.30[1Ps17d29@192.169.0.30[1Pcs17d29@192.169.0.30[1Ps17d29@192.169.0.30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+There are stopped jobs.
+]0;cec@cec-H110M: ~[01;32mcec@cec-H110M[00m:[01;34m~[00m$ exoit[K[K[Kit
+exit
+
+Script done on Monday 29 April 2019 11:47:46 AM IST
