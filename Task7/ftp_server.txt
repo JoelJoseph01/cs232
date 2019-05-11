@@ -9,9 +9,33 @@ ubuntu1Sorry, try again.
 [sudo] password for joeljoseph: 
 Sorry, try again.
 [sudo] password for joeljoseph: 
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 85%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 85%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
 The following packages were automatically installed and are no longer required:
   gtk3-engines-unico iproute libcrypt-passwdmd5-perl libpango1.0-0
   libpangox-1.0-0 python-commandnotfound python-gdbm
@@ -21,12 +45,52 @@ The following NEW packages will be installed:
 0 upgraded, 1 newly installed, 0 to remove and 41 not upgraded.
 Need to get 111 kB of archives.
 After this operation, 361 kB of additional disk space will be used.
-[33m0% [Working][0m[33m            0% [Connecting to in.archive.ubuntu.com (2001:67c:1560:8001::11)][0m[33m                                                                 0% [Waiting for headers][0m                        Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main vsftpd amd64 3.0.2-1ubuntu2.14.04.1 [111 kB]
-[33m                        0% [1 vsftpd 0 B/111 kB 0%][0m[33m                           11% [1 vsftpd 11.8 kB/111 kB 11%][0m[33m11% [1 vsftpd 11.8 kB/111 kB 11%][0m[33m44% [1 vsftpd 49.2 kB/111 kB 44%][0m[33m78% [1 vsftpd 86.7 kB/111 kB 78%][0m[33m                                 100% [Working][0m              Fetched 111 kB in 3s (32.7 kB/s)
+[33m
+
+0% [Working][0m[33m
+            
+0% [Connecting to in.archive.ubuntu.com (2001:67c:1560:8001::11)][0m[33m
+                                                                 
+0% [Waiting for headers][0m
+                        
+Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main vsftpd amd64 3.0.2-1ubuntu2.14.04.1 [111 kB]
+[33m
+                        
+0% [1 vsftpd 0 B/111 kB 0%][0m[33m
+                           
+11% [1 vsftpd 11.8 kB/111 kB 11%][0m[33m
+11% [1 vsftpd 11.8 kB/111 kB 11%][0m[33m
+44% [1 vsftpd 49.2 kB/111 kB 44%][0m[33m
+78% [1 vsftpd 86.7 kB/111 kB 78%][0m[33m
+                                 
+100% [Working][0m
+              
+Fetched 111 kB in 3s (32.7 kB/s)
 Preconfiguring packages ...
 
 [s[0;23r[u[1ASelecting previously unselected package vsftpd.
-(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 179768 files and directories currently installed.)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 179768 files and directories currently installed.)
 Preparing to unpack .../vsftpd_3.0.2-1ubuntu2.14.04.1_amd64.deb ...
 [s[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] [u[s[24;0f[42m[30mProgress: [ 20%][49m[39m [############..............................................] [uUnpacking vsftpd (3.0.2-1ubuntu2.14.04.1) ...
 [s[24;0f[42m[30mProgress: [ 40%][49m[39m [########################..................................] [u[s[24;0f[42m[30mProgress: [ 60%][49m[39m [###################################.......................] [uProcessing triggers for man-db (2.7.5-1) ...
@@ -36,7 +100,8 @@ Setting up vsftpd (3.0.2-1ubuntu2.14.04.1) ...
 Processing triggers for ureadahead (0.100.0-16) ...
 [s[24;0f[42m[30mProgress: [100%][49m[39m [##########################################################] [u
 [s[0;24r[u[1A[J]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ sudo vsftpd
-500 OOPS: could not bind listening IPv4 socket
+500 OOPS: could not bind listening IPv4 socket
+
 ]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ sudo vsftpd[K[K[K[K[K[K[K[K[K[K[Kftp localhost
 Connected to localhost.
 220 (vsFTPd 3.0.2)
