@@ -1,0 +1,75 @@
+Script started on Saturday 11 May 2019 08:49:55 AM IST
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ sudo[K[K[K[Ksftp cs17d29@14.139.189.217[8Pudo apt-get update[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo apt-get install vsftpd[6P-fix-missing[8P--fix-missingsudo apt-get install vsftpd[8Pupdateinstall vsftpd[14P--fix-missingsudo apt--fix-missingget install vsftpd[13Papt-get update[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[Cftp cs17d29@14.139.189.217[Ksudo[K[K[K[Ksudo apt get insta;[K[K[K[K[K[K[K[K[K[K[K[K[K[Kapt install vsftpd
+
+[sudo] password for joeljoseph: 
+ubuntu1Sorry, try again.
+[sudo] password for joeljoseph: 
+Sorry, try again.
+[sudo] password for joeljoseph: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 85%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  gtk3-engines-unico iproute libcrypt-passwdmd5-perl libpango1.0-0
+  libpangox-1.0-0 python-commandnotfound python-gdbm
+Use 'apt-get autoremove' to remove them.
+The following NEW packages will be installed:
+  vsftpd
+0 upgraded, 1 newly installed, 0 to remove and 41 not upgraded.
+Need to get 111 kB of archives.
+After this operation, 361 kB of additional disk space will be used.
+[33m0% [Working][0m[33m            0% [Connecting to in.archive.ubuntu.com (2001:67c:1560:8001::11)][0m[33m                                                                 0% [Waiting for headers][0m                        Get:1 http://in.archive.ubuntu.com/ubuntu/ trusty-updates/main vsftpd amd64 3.0.2-1ubuntu2.14.04.1 [111 kB]
+[33m                        0% [1 vsftpd 0 B/111 kB 0%][0m[33m                           11% [1 vsftpd 11.8 kB/111 kB 11%][0m[33m11% [1 vsftpd 11.8 kB/111 kB 11%][0m[33m44% [1 vsftpd 49.2 kB/111 kB 44%][0m[33m78% [1 vsftpd 86.7 kB/111 kB 78%][0m[33m                                 100% [Working][0m              Fetched 111 kB in 3s (32.7 kB/s)
+Preconfiguring packages ...
+
+[s[0;23r[u[1ASelecting previously unselected package vsftpd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 179768 files and directories currently installed.)
+Preparing to unpack .../vsftpd_3.0.2-1ubuntu2.14.04.1_amd64.deb ...
+[s[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] [u[s[24;0f[42m[30mProgress: [ 20%][49m[39m [############..............................................] [uUnpacking vsftpd (3.0.2-1ubuntu2.14.04.1) ...
+[s[24;0f[42m[30mProgress: [ 40%][49m[39m [########################..................................] [u[s[24;0f[42m[30mProgress: [ 60%][49m[39m [###################################.......................] [uProcessing triggers for man-db (2.7.5-1) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Setting up vsftpd (3.0.2-1ubuntu2.14.04.1) ...
+[s[24;0f[42m[30mProgress: [ 80%][49m[39m [###############################################...........] [uvsftpd start/running, process 815
+Processing triggers for ureadahead (0.100.0-16) ...
+[s[24;0f[42m[30mProgress: [100%][49m[39m [##########################################################] [u
+[s[0;24r[u[1A[J]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ sudo vsftpd
+500 OOPS: could not bind listening IPv4 socket
+]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ sudo vsftpd[K[K[K[K[K[K[K[K[K[K[Kftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:joeljoseph): s4d2
+331 Please specify the password.
+Password:
+530 Login incorrect.
+Login failed.
+ftp> exit
+221 Goodbye.
+]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ loc[K[K[Kfrp[K[Ktp localhot[Kst
+Connected to localhost.
+220 (vsFTPd 3.0.2)
+Name (localhost:joeljoseph): jel  oeljoseph
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+500 OOPS: priv_sock_get_cmd
+ftp> ls -l
+421 Service not available, remote server has closed connection
+ftp> cd[K[Kls
+Not connected.
+ftp> cd
+Not connected.
+ftp> cd Desktop
+Not connected.
+ftp> exit
+]0;joeljoseph@joeljoseph-VirtualBox: ~joeljoseph@joeljoseph-VirtualBox:~$ exit
+exit
+
+Script done on Saturday 11 May 2019 08:54:18 AM IST
